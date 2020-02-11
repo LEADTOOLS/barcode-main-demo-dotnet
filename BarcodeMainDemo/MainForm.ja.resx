@@ -1,0 +1,1138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="_viewerControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 0</value>
+  </data>
+  <data name="_viewerControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>655, 364</value>
+  </data>
+  <data name="_barcodeControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 364</value>
+  </data>
+  <data name="_pagesControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="_pagesControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 558</value>
+  </data>
+  <data name="_fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>ファイル(&amp;F)</value>
+  </data>
+  <data name="_newToolStripMenuItem.Text" xml:space="preserve">
+    <value>新規作成(&amp;N)...</value>
+  </data>
+  <data name="_newToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>新規ドキュメントの作成</value>
+  </data>
+  <data name="_openToolStripMenuItem.Text" xml:space="preserve">
+    <value>ファイルを開く(&amp;O)...</value>
+  </data>
+  <data name="_openToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>ディスクからドキュメントを開く</value>
+  </data>
+  <data name="_saveToolStripMenuItem.Text" xml:space="preserve">
+    <value>保存(&amp;S)...</value>
+  </data>
+  <data name="_saveToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>現在のドキュメントをディスクに保存</value>
+  </data>
+  <data name="_closeToolStripMenuItem.Text" xml:space="preserve">
+    <value>閉じる(&amp;L)</value>
+  </data>
+  <data name="_closeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>現在のドキュメントを閉じる</value>
+  </data>
+  <data name="_scanToolStripMenuItem.Text" xml:space="preserve">
+    <value>スキャン(&amp;C)</value>
+  </data>
+  <data name="_selectSourceToolStripMenuItem.Text" xml:space="preserve">
+    <value>TWAIN機器の選択(&amp;S)</value>
+  </data>
+  <data name="_selectSourceToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>TWAIN機器の選択</value>
+  </data>
+  <data name="_acquireToolStripMenuItem.Text" xml:space="preserve">
+    <value>TWAIN機器から取得(&amp;A)</value>
+  </data>
+  <data name="_acquireToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>イメージのスキャン</value>
+  </data>
+  <data name="_exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>終了(&amp;X)</value>
+  </data>
+  <data name="_exitToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>アプリケーションを閉じる</value>
+  </data>
+  <data name="_editToolStripMenuItem.Text" xml:space="preserve">
+    <value>編集(&amp;E)</value>
+  </data>
+  <data name="_copyImageToolStripMenuItem.Text" xml:space="preserve">
+    <value>画像のコピー(&amp;C)</value>
+  </data>
+  <data name="_copyImageToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>クリップボードに画像をコピー</value>
+  </data>
+  <data name="_pasteImageToolStripMenuItem.Text" xml:space="preserve">
+    <value>画像の貼り付け(&amp;P)</value>
+  </data>
+  <data name="_pasteImageToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>現在のページの画像をクリップボードに貼り付け</value>
+  </data>
+  <data name="_viewToolStripMenuItem.Text" xml:space="preserve">
+    <value>表示(&amp;V)</value>
+  </data>
+  <data name="_zoomOutToolStripMenuItem.Text" xml:space="preserve">
+    <value>縮小(&amp;O)</value>
+  </data>
+  <data name="_zoomOutToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>縮小</value>
+  </data>
+  <data name="_zoomInToolStripMenuItem.Text" xml:space="preserve">
+    <value>拡大(&amp;I)</value>
+  </data>
+  <data name="_zoomInToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>拡大</value>
+  </data>
+  <data name="_fitWidthToolStripMenuItem.Text" xml:space="preserve">
+    <value>幅に合わせる(&amp;F)</value>
+  </data>
+  <data name="_fitWidthToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>画像の幅をウィンドウの幅に合わせる</value>
+  </data>
+  <data name="_fitPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>ウィンドウサイズに合わせる(&amp;P)</value>
+  </data>
+  <data name="_fitPageToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>画像をウィンドウに合わせる</value>
+  </data>
+  <data name="_pageToolStripMenuItem.Text" xml:space="preserve">
+    <value>ページ(&amp;P)</value>
+  </data>
+  <data name="_previousPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>前のページ(&amp;R)</value>
+  </data>
+  <data name="_previousPageToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>前のページへ移動</value>
+  </data>
+  <data name="_nextPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>次のページ(&amp;N)</value>
+  </data>
+  <data name="_nextPageToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>次のページへ移動</value>
+  </data>
+  <data name="_gotoPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>ページを指定(&amp;G)...</value>
+  </data>
+  <data name="_gotoPageToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>ドキュメントの指定ページへ移動</value>
+  </data>
+  <data name="_interactiveToolStripMenuItem.Text" xml:space="preserve">
+    <value>インタラクティブ(&amp;I)</value>
+  </data>
+  <data name="_selectModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>選択(&amp;S)</value>
+  </data>
+  <data name="_selectModeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>選択モード</value>
+  </data>
+  <data name="_panModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>パン(&amp;P)</value>
+  </data>
+  <data name="_panModeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>マウスを使ってページを移動</value>
+  </data>
+  <data name="_zoomToModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>拡大(&amp;Z)</value>
+  </data>
+  <data name="_zoomToModeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>マウスを使って指定の長方形を拡大</value>
+  </data>
+  <data name="_drawRegionModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>リージョン(&amp;R)</value>
+  </data>
+  <data name="_drawRegionModeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>マウスを使ってリージョンを選択</value>
+  </data>
+  <data name="_readBarcodeModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>バーコードの読み込み(&amp;R)</value>
+  </data>
+  <data name="_readBarcodeModeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>現在のシンボルとオプションで読み込むため、バーコードの周りに長方形の描画</value>
+  </data>
+  <data name="_writeBarcodeModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>バーコードの書き込み(&amp;B)</value>
+  </data>
+  <data name="_writeBarcodeModeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>ページに新しいバーコードを書き込み</value>
+  </data>
+  <data name="_deleteRegionToolStripMenuItem.Text" xml:space="preserve">
+    <value>リージョンの削除(&amp;D)</value>
+  </data>
+  <data name="_deleteRegionToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>ページからリージョンを削除</value>
+  </data>
+  <data name="_preprocessingToolStripMenuItem.Text" xml:space="preserve">
+    <value>前処理(&amp;R)</value>
+  </data>
+  <data name="_preprocessAllPagesToolStripMenuItem.Text" xml:space="preserve">
+    <value>全てのページ(&amp;A)</value>
+  </data>
+  <data name="_preprocessAllPagesToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>ドキュメントの全ページ、または現在のページに前処理を適用</value>
+  </data>
+  <data name="_flipToolStripMenuItem.Text" xml:space="preserve">
+    <value>反転(&amp;F)</value>
+  </data>
+  <data name="_flipToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>ドキュメントを垂直方向に反転</value>
+  </data>
+  <data name="_reverseToolStripMenuItem.Text" xml:space="preserve">
+    <value>左右に反転(&amp;R)</value>
+  </data>
+  <data name="_reverseToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>ドキュメントを水平方向に反転</value>
+  </data>
+  <data name="_rotate90ClockwiseToolStripMenuItem.Text" xml:space="preserve">
+    <value>回転 90度 - 時計回り(&amp;O)</value>
+  </data>
+  <data name="_rotate90ClockwiseToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>ドキュメントを時計回りに90度回転</value>
+  </data>
+  <data name="_rotate90CounterclockwiseToolStripMenuItem.Text" xml:space="preserve">
+    <value>回転 90度 - 反時計回り(&amp;T)</value>
+  </data>
+  <data name="_rotate90CounterclockwiseToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>ドキュメントを反時計回りに90度回転</value>
+  </data>
+  <data name="_barcodeToolStripMenuItem.Text" xml:space="preserve">
+    <value>バーコード(&amp;B)</value>
+  </data>
+  <data name="_readBarcodesToolStripMenuItem.Text" xml:space="preserve">
+    <value>バーコードの読み込み(&amp;R)...</value>
+  </data>
+  <data name="_readBarcodesToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>現在のシンボルとオプションでドキュメントからバーコードの読み込み</value>
+  </data>
+  <data name="_readBarcodeOptionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>シンボル読み込みのオプション(&amp;O)...</value>
+  </data>
+  <data name="_readBarcodeOptionsToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>バーコードの読み込みに使用するシンボルとオプションの設定</value>
+  </data>
+  <data name="_barcodeImageTypeToolStripMenuItem.Text" xml:space="preserve">
+    <value>画像のタイプ(&amp;I)</value>
+  </data>
+  <data name="_scannedDocumentImageTypeToolStripMenuItem.Text" xml:space="preserve">
+    <value>スキャンしたドキュメント(&amp;S)</value>
+  </data>
+  <data name="_scannedDocumentImageTypeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>画像はスキャンしたドキュメントです</value>
+  </data>
+  <data name="_pictureImageTypeToolStripMenuItem.Text" xml:space="preserve">
+    <value>ピクチャ(&amp;P)</value>
+  </data>
+  <data name="_pictureImageTypeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>画像はピクチャです</value>
+  </data>
+  <data name="_unknownImageTypeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="_unknownImageTypeToolStripMenuItem.Text" xml:space="preserve">
+    <value>不明(&amp;U)</value>
+  </data>
+  <data name="_unknownImageTypeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Uknown image type</value>
+  </data>
+  <data name="_writeBarcodeToolStripMenuItem.Text" xml:space="preserve">
+    <value>バーコードの書き込み(&amp;W)...</value>
+  </data>
+  <data name="_writeBarcodeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>ページに新しいバーコードを書き込み</value>
+  </data>
+  <data name="_showBarcodesToolStripMenuItem.Text" xml:space="preserve">
+    <value>バーコードの表示(&amp;H)</value>
+  </data>
+  <data name="_showBarcodesToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>ドキュメントの現在のバーコードの表示／非表示</value>
+  </data>
+  <data name="_saveCurrentReadOptionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>現在の読み込みオプションの保存(&amp;S)...</value>
+  </data>
+  <data name="_loadReadOptionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>読み込みオプションのロード(&amp;L)...</value>
+  </data>
+  <data name="_saveCurrentWriteOptionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>現在の書き込みオプションの保存(&amp;V)...</value>
+  </data>
+  <data name="_loadWriteOptionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>書き込みオプションのロード(&amp;A)...</value>
+  </data>
+  <data name="_deleteSelectedBarcodeToolStripMenuItem.Text" xml:space="preserve">
+    <value>選択したバーコードの削除(&amp;D)</value>
+  </data>
+  <data name="_zoomToSelectedBarcodeToolStripMenuItem.Text" xml:space="preserve">
+    <value>選択したバーコードの拡大(&amp;Z)</value>
+  </data>
+  <data name="_exportBarcodesToolStripMenuItem.Text" xml:space="preserve">
+    <value>バーコードのエクスポート(&amp;X)...</value>
+  </data>
+  <data name="_clearAllBarcodesToolStripMenuItem.Text" xml:space="preserve">
+    <value>全てのバーコードのクリア(&amp;C)</value>
+  </data>
+  <data name="_helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>ヘルプ(&amp;H)</value>
+  </data>
+  <data name="_aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>バージョン情報(&amp;A)...</value>
+  </data>
+  <data name="_aboutToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>このデモについて</value>
+  </data>
+  <data name="_newToolStripButton.ToolTipText" xml:space="preserve">
+    <value>新規ドキュメントの作成</value>
+  </data>
+  <data name="_openToolStripButton.ToolTipText" xml:space="preserve">
+    <value>ディスク上の文書を開く</value>
+  </data>
+  <data name="_saveToolStripButton.ToolTipText" xml:space="preserve">
+    <value>現在のドキュメントをディスクに保存</value>
+  </data>
+  <data name="_readBarcodesToolStripButton.ToolTipText" xml:space="preserve">
+    <value>現在のシンボルとオプションでドキュメントからバーコードの読み込み</value>
+  </data>
+  <data name="_readBarcodeOptionsToolStripButton.ToolTipText" xml:space="preserve">
+    <value>バーコードの読み込みに使用するシンボルとオプションの設定</value>
+  </data>
+  <data name="_writeBarcodeToolStripButton.ToolTipText" xml:space="preserve">
+    <value>ページに新しいバーコードを書き込み</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>メインフォーム</value>
+  </data>
+  <data name="Resx_BarcodeError" xml:space="preserve">
+    <value>バーコード書き込みエラー{0}{0}コード：{1}{0}メッセージ：{2}{0}{0}バウンドまたは文字列サイズについて変更することで書き込みオプションを修正し、再試行してください。</value>
+  </data>
+  <data name="Resx_ClipboardImage" xml:space="preserve">
+    <value>クリップボード画像</value>
+  </data>
+  <data name="Resx_DefaultDocument" xml:space="preserve">
+    <value>デフォルトのドキュメント</value>
+  </data>
+  <data name="Resx_LEADDocumentSupport" xml:space="preserve">
+    <value>Documentサポート（RasterSupportType.Document）はロックされています。</value>
+  </data>
+  <data name="Resx_LEADBarcodeSupport" xml:space="preserve">
+    <value>Barcodeサポートはロックされています。デモを継続できないため終了します。</value>
+  </data>
+  <data name="Resx_LEADError" xml:space="preserve">
+    <value>LEADTOOLS エラー\n\nコード: {0}\n\n{1}</value>
+  </data>
+  <data name="Resx_LoadBarcodeReadOptions" xml:space="preserve">
+    <value>バーコード読み込みオプションのロード(&amp;L)...</value>
+  </data>
+  <data name="Resx_LoadBarcodeWriteOptions" xml:space="preserve">
+    <value>バーコード書き込みオプションのロード</value>
+  </data>
+  <data name="Resx_NewDocument" xml:space="preserve">
+    <value>新規文書</value>
+  </data>
+  <data name="Resx_OldVersion" xml:space="preserve">
+    <value>お使いのTWAINDSM.DLLは古いバージョンです。最新のバージョンをhttp://www.twain.orgからダウンロードしてください。</value>
+  </data>
+  <data name="Resx_SaveBarcodeData" xml:space="preserve">
+    <value>現在のページにバーコードデータを保存</value>
+  </data>
+  <data name="Resx_SaveBarcodeReadOptions" xml:space="preserve">
+    <value>現在のバーコード読み込みオプションの保存</value>
+  </data>
+  <data name="Resx_SaveBarcodeWriteOptions" xml:space="preserve">
+    <value>現在のバーコード書き込みオプションの保存</value>
+  </data>
+  <data name="Resx_TwainError" xml:space="preserve">
+    <value>TWAIN エラー\n\nコード: {0}\n\n{1}</value>
+  </data>
+  <data name="Resx_TwainScanning" xml:space="preserve">
+    <value>TWAIN スキャン機器</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_aboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>_aboutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_aboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_acquireToolStripMenuItem.Name" xml:space="preserve">
+    <value>_acquireToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_acquireToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_barcodeControl.Name" xml:space="preserve">
+    <value>_barcodeControl</value>
+  </data>
+  <data name="&gt;&gt;_barcodeControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_barcodeControl.Type" xml:space="preserve">
+    <value>BarcodeMainDemo.BarcodeControls.BarcodeControl, CSBarcodeMainDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_barcodeControl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;_barcodeImageTypeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_barcodeImageTypeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_barcodeImageTypeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_barcodeSep1ToolStripMenuItem.Name" xml:space="preserve">
+    <value>_barcodeSep1ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_barcodeSep1ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_barcodeSep2ToolStripMenuItem.Name" xml:space="preserve">
+    <value>_barcodeSep2ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_barcodeSep2ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_barcodeSep3ToolStripMenuItem.Name" xml:space="preserve">
+    <value>_barcodeSep3ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_barcodeSep3ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_barcodeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_barcodeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_barcodeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_clearAllBarcodesToolStripMenuItem.Name" xml:space="preserve">
+    <value>_clearAllBarcodesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_clearAllBarcodesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_closeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_closeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_closeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_copyImageToolStripMenuItem.Name" xml:space="preserve">
+    <value>_copyImageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_copyImageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_deleteRegionToolStripMenuItem.Name" xml:space="preserve">
+    <value>_deleteRegionToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_deleteRegionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_deleteSelectedBarcodeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_deleteSelectedBarcodeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_deleteSelectedBarcodeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_drawRegionModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_drawRegionModeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_drawRegionModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_editSep1ToolStripMenuItem.Name" xml:space="preserve">
+    <value>_editSep1ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_editSep1ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_editToolStripMenuItem.Name" xml:space="preserve">
+    <value>_editToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_editToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_exitToolStripMenuItem.Name" xml:space="preserve">
+    <value>_exitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_exitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_exportBarcodesToolStripMenuItem.Name" xml:space="preserve">
+    <value>_exportBarcodesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_exportBarcodesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_fileSep1toolStripMenuItem.Name" xml:space="preserve">
+    <value>_fileSep1toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_fileSep1toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_fileSep2ToolStripMenuItem.Name" xml:space="preserve">
+    <value>_fileSep2ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_fileSep2ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>_fileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_fitPageToolStripMenuItem.Name" xml:space="preserve">
+    <value>_fitPageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_fitPageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_fitWidthToolStripMenuItem.Name" xml:space="preserve">
+    <value>_fitWidthToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_fitWidthToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_flipToolStripMenuItem.Name" xml:space="preserve">
+    <value>_flipToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_flipToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_gotoPageToolStripMenuItem.Name" xml:space="preserve">
+    <value>_gotoPageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_gotoPageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_helpToolStripMenuItem.Name" xml:space="preserve">
+    <value>_helpToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_helpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_interactiveSep1ToolStripMenuItem.Name" xml:space="preserve">
+    <value>_interactiveSep1ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_interactiveSep1ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_interactiveToolStripMenuItem.Name" xml:space="preserve">
+    <value>_interactiveToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_interactiveToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_loadReadOptionsToolStripMenuItem.Name" xml:space="preserve">
+    <value>_loadReadOptionsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_loadReadOptionsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_loadWriteOptionsToolStripMenuItem.Name" xml:space="preserve">
+    <value>_loadWriteOptionsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_loadWriteOptionsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_mainMenuStrip.Name" xml:space="preserve">
+    <value>_mainMenuStrip</value>
+  </data>
+  <data name="&gt;&gt;_mainMenuStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_mainMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_mainMenuStrip.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;_mainStatusStrip.Name" xml:space="preserve">
+    <value>_mainStatusStrip</value>
+  </data>
+  <data name="&gt;&gt;_mainStatusStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_mainStatusStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_mainStatusStrip.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;_mainToolStrip.Name" xml:space="preserve">
+    <value>_mainToolStrip</value>
+  </data>
+  <data name="&gt;&gt;_mainToolStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_mainToolStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_mainToolStrip.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;_newToolStripButton.Name" xml:space="preserve">
+    <value>_newToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_newToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_newToolStripMenuItem.Name" xml:space="preserve">
+    <value>_newToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_newToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_nextPageToolStripMenuItem.Name" xml:space="preserve">
+    <value>_nextPageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_nextPageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_openToolStripButton.Name" xml:space="preserve">
+    <value>_openToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_openToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_openToolStripMenuItem.Name" xml:space="preserve">
+    <value>_openToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_openToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_pagesControl.Name" xml:space="preserve">
+    <value>_pagesControl</value>
+  </data>
+  <data name="&gt;&gt;_pagesControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_pagesControl.Type" xml:space="preserve">
+    <value>BarcodeMainDemo.PagesControl.PagesControl, CSBarcodeMainDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_pagesControl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;_pageToolStripMenuItem.Name" xml:space="preserve">
+    <value>_pageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_pageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_panModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_panModeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_panModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_pasteImageToolStripMenuItem.Name" xml:space="preserve">
+    <value>_pasteImageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_pasteImageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_pictureImageTypeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_pictureImageTypeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_pictureImageTypeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_preprocessAllPagesToolStripMenuItem.Name" xml:space="preserve">
+    <value>_preprocessAllPagesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_preprocessAllPagesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_preprocessingSep1ToolStripMenuItem.Name" xml:space="preserve">
+    <value>_preprocessingSep1ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_preprocessingSep1ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_preprocessingToolStripMenuItem.Name" xml:space="preserve">
+    <value>_preprocessingToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_preprocessingToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_previousPageToolStripMenuItem.Name" xml:space="preserve">
+    <value>_previousPageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_previousPageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodeModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_readBarcodeModeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodeModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodeOptionsToolStripButton.Name" xml:space="preserve">
+    <value>_readBarcodeOptionsToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodeOptionsToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodeOptionsToolStripMenuItem.Name" xml:space="preserve">
+    <value>_readBarcodeOptionsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodeOptionsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodesToolStripButton.Name" xml:space="preserve">
+    <value>_readBarcodesToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodesToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodesToolStripMenuItem.Name" xml:space="preserve">
+    <value>_readBarcodesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_reverseToolStripMenuItem.Name" xml:space="preserve">
+    <value>_reverseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_reverseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_rotate90ClockwiseToolStripMenuItem.Name" xml:space="preserve">
+    <value>_rotate90ClockwiseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_rotate90ClockwiseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_rotate90CounterclockwiseToolStripMenuItem.Name" xml:space="preserve">
+    <value>_rotate90CounterclockwiseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_rotate90CounterclockwiseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_saveCurrentReadOptionsToolStripMenuItem.Name" xml:space="preserve">
+    <value>_saveCurrentReadOptionsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_saveCurrentReadOptionsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_saveCurrentWriteOptionsToolStripMenuItem.Name" xml:space="preserve">
+    <value>_saveCurrentWriteOptionsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_saveCurrentWriteOptionsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_saveToolStripButton.Name" xml:space="preserve">
+    <value>_saveToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_saveToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_saveToolStripMenuItem.Name" xml:space="preserve">
+    <value>_saveToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_saveToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_scannedDocumentImageTypeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_scannedDocumentImageTypeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_scannedDocumentImageTypeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_scanToolStripMenuItem.Name" xml:space="preserve">
+    <value>_scanToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_scanToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_selectModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_selectModeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_selectModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_selectSourceToolStripMenuItem.Name" xml:space="preserve">
+    <value>_selectSourceToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_selectSourceToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_showBarcodesToolStripMenuItem.Name" xml:space="preserve">
+    <value>_showBarcodesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_showBarcodesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_toolStripSeparator1.Name" xml:space="preserve">
+    <value>_toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;_toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_viewerControl.Name" xml:space="preserve">
+    <value>_viewerControl</value>
+  </data>
+  <data name="&gt;&gt;_viewerControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_viewerControl.Type" xml:space="preserve">
+    <value>BarcodeMainDemo.ViewerControl.ViewerControl, CSBarcodeMainDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_viewerControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_viewerSplitter.Name" xml:space="preserve">
+    <value>_viewerSplitter</value>
+  </data>
+  <data name="&gt;&gt;_viewerSplitter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_viewerSplitter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_viewerSplitter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;_viewToolStripMenuItem.Name" xml:space="preserve">
+    <value>_viewToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_viewToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_writeBarcodeModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_writeBarcodeModeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_writeBarcodeModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_writeBarcodeToolStripButton.Name" xml:space="preserve">
+    <value>_writeBarcodeToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_writeBarcodeToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_writeBarcodeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_writeBarcodeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_writeBarcodeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_zoomInToolStripMenuItem.Name" xml:space="preserve">
+    <value>_zoomInToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_zoomInToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_zoomOutToolStripMenuItem.Name" xml:space="preserve">
+    <value>_zoomOutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_zoomOutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_zoomToModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_zoomToModeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_zoomToModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_zoomToSelectedBarcodeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_zoomToSelectedBarcodeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_zoomToSelectedBarcodeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_saveToolStripButton.Text" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="_noiseFiltersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="_noiseFiltersToolStripMenuItem.Text" xml:space="preserve">
+    <value>ノイズフィルター(&amp;N)...</value>
+  </data>
+  <data name="_noiseMinFilterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="_noiseMinFilterToolStripMenuItem.Text" xml:space="preserve">
+    <value>明るさの最小値(&amp;N)...</value>
+  </data>
+  <data name="_noiseMinFilterToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>明るさの最小値</value>
+  </data>
+  <data name="_noiseMedianFilterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="_noiseMedianFilterToolStripMenuItem.Text" xml:space="preserve">
+    <value>メディアン(&amp;M)...</value>
+  </data>
+  <data name="_noiseMedianFilterToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>メディアン</value>
+  </data>
+  <data name="_lineRemoveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="_lineRemoveToolStripMenuItem.Text" xml:space="preserve">
+    <value>線の除去(&amp;L)...</value>
+  </data>
+  <data name="_lineRemoveToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>線の除去</value>
+  </data>
+  <data name="_imageDeskewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="_imageDeskewToolStripMenuItem.Text" xml:space="preserve">
+    <value>傾きの自動補正(&amp;D)...</value>
+  </data>
+  <data name="_imageDeskewToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>傾きの自動補正</value>
+  </data>
+   <data name="_segmentationPerspectiveMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+      <value>226, 22</value>
+   </data>
+   <data name="_segmentationPerspectiveMenuItem.Text" xml:space="preserve">
+    <value>Inv 視点と方向...</value>
+  </data>
+   <data name="_segmentationPerspectiveMenuItem.ToolTipText" xml:space="preserve">
+    <value>Inv 視点と方向...</value>
+  </data>
+   <data name="_perspectiveDeskewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+      <value>226, 22</value>
+   </data>
+   <data name="_perspectiveDeskewToolStripMenuItem.Text" xml:space="preserve">
+    <value>3D表示で傾きの自動補正</value>
+  </data>
+   <data name="_perspectiveDeskewToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>3D表示で傾きの自動補正</value>
+  </data>
+   <data name="_noiseMaxFilterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="_noiseMaxFilterToolStripMenuItem.Text" xml:space="preserve">
+    <value>明るさの最大値(&amp;X)...</value>
+  </data>
+  <data name="_noiseMaxFilterToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>明るさの最大値</value>
+  </data>
+  <data name="&gt;&gt;_noiseFiltersToolStripMenuItem.Name" xml:space="preserve">
+    <value>_noiseFiltersToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_noiseFiltersToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_noiseMinFilterToolStripMenuItem.Name" xml:space="preserve">
+    <value>_noiseMinFilterToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_noiseMinFilterToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_noiseMedianFilterToolStripMenuItem.Name" xml:space="preserve">
+    <value>_noiseMedianFilterToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_noiseMedianFilterToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lineRemoveToolStripMenuItem.Name" xml:space="preserve">
+    <value>_lineRemoveToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_imageDeskewToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_imageDeskewToolStripMenuItem.Name" xml:space="preserve">
+    <value>_imageDeskewToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_imageDeskewToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+   <data name="&gt;&gt;_segmentationPerspectiveMenuItem.Name" xml:space="preserve">
+    <value>_SegmentationPerspectiveMenuItem</value>
+  </data>
+   <data name="&gt;&gt;_segmentationPerspectiveMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+   <data name="&gt;&gt;_perspectiveDeskewToolStripMenuItem.Name" xml:space="preserve">
+    <value>_perspectiveDeskewToolStripMenuItem</value>
+  </data>
+   <data name="&gt;&gt;_perspectiveDeskewToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_noiseMaxFilterToolStripMenuItem.Name" xml:space="preserve">
+    <value>_noiseMaxFilterToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_noiseMaxFilterToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_returnFourPointsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="_returnFourPointsToolStripMenuItem.Text" xml:space="preserve">
+    <value>4点(&amp;F)</value>
+  </data>
+  <data name="_returnFourPointsToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Four points of the corners of the barcode will be returned</value>
+  </data>
+   <data name="&gt;&gt;_returnFourPointsToolStripMenuItem.Name" xml:space="preserve">
+    <value>_returnFourPointsToolStripMenuItem</value>
+  </data>
+   <data name="&gt;&gt;_returnFourPointsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_returnBoundingRectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="_returnBoundingRectToolStripMenuItem.Text" xml:space="preserve">
+    <value>長方形(&amp;R)</value>
+  </data>
+  <data name="_returnBoundingRectToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>A bounding rectangle of the barcode will be returned</value>
+  </data>
+   <data name="&gt;&gt;_returnBoundingRectToolStripMenuItem.Name" xml:space="preserve">
+    <value>_returnBoundingRectToolStripMenuItem</value>
+  </data>
+   <data name="&gt;&gt;_returnBoundingRectToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_barcodeReturnBoundariesToolStripMenuItem.Name" xml:space="preserve">
+    <value>_barcodeReturnBoundariesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_barcodeReturnBoundariesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_barcodeReturnBoundariesToolStripMenuItem.Name" xml:space="preserve">
+    <value>_barcodeReturnBoundariesToolStripMenuItem</value>
+  </data>
+  <data name="_barcodeReturnBoundariesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+      <value>222, 22</value>
+  </data>
+  <data name="_barcodeReturnBoundariesToolStripMenuItem.Text" xml:space="preserve">
+    <value>境界の種類(&amp;B)</value>
+  </data>
+</root>

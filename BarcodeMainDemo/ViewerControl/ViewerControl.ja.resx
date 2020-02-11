@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_previousPageToolStripButton.ToolTipText" xml:space="preserve">
+    <value>前のページへ移動</value>
+  </data>
+  <data name="_nextPageToolStripButton.ToolTipText" xml:space="preserve">
+    <value>次のページへ移動</value>
+  </data>
+  <data name="_pageToolStripTextBox.ToolTipText" xml:space="preserve">
+    <value>現在のページ番号</value>
+  </data>
+  <data name="_zoomOutToolStripButton.ToolTipText" xml:space="preserve">
+    <value>縮小</value>
+  </data>
+  <data name="_zoomInToolStripButton.ToolTipText" xml:space="preserve">
+    <value>拡大</value>
+  </data>
+  <data name="_zoomToolStripComboBox.Items13" xml:space="preserve">
+    <value>標準</value>
+  </data>
+  <data name="_zoomToolStripComboBox.Items14" xml:space="preserve">
+    <value>ページに合わせる</value>
+  </data>
+  <data name="_zoomToolStripComboBox.Items15" xml:space="preserve">
+    <value>幅に合わせる</value>
+  </data>
+  <data name="_fitPageWidthToolStripButton.ToolTipText" xml:space="preserve">
+    <value>ウィンドウの幅に合わせる</value>
+  </data>
+  <data name="_fitPageToolStripButton.ToolTipText" xml:space="preserve">
+    <value>ウィンドウサイズに合わせる</value>
+  </data>
+  <data name="_selectModeToolStripButton.ToolTipText" xml:space="preserve">
+    <value>選択モード</value>
+  </data>
+  <data name="_panModeToolStripButton.ToolTipText" xml:space="preserve">
+    <value>パンモード</value>
+  </data>
+  <data name="_zoomToSelectionModeToolStripButton.ToolTipText" xml:space="preserve">
+    <value>選択領域の拡大</value>
+  </data>
+  <data name="_regionModeToolStripButton.ToolTipText" xml:space="preserve">
+    <value>リージョンの選択</value>
+  </data>
+  <data name="_deleteRegionToolStripButton.ToolTipText" xml:space="preserve">
+    <value>現在のリージョンの削除</value>
+  </data>
+  <data name="_readBarcodeModeToolStripButton.ToolTipText" xml:space="preserve">
+    <value>現在のシンボルとオプションで読み込むため、バーコードの周りに長方形の描画</value>
+  </data>
+  <data name="_writeBarcodeModeToolStripButton.ToolTipText" xml:space="preserve">
+    <value>ページに新しいバーコードを書き込み</value>
+  </data>
+  <data name="_showBarcodesToolStripButton.ToolTipText" xml:space="preserve">
+    <value>バーコードの表示／非表示</value>
+  </data>
+  <data name="Resx_Size" xml:space="preserve">
+    <value>サイズ {0} ： {1} ピクセル - 解像度 {2} ： {3} DPI - ビット数 {4}</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ViewerControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_deleteRegionToolStripButton.Name" xml:space="preserve">
+    <value>_deleteRegionToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_deleteRegionToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_fitPageToolStripButton.Name" xml:space="preserve">
+    <value>_fitPageToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_fitPageToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_fitPageWidthToolStripButton.Name" xml:space="preserve">
+    <value>_fitPageWidthToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_fitPageWidthToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_mousePositionLabel.Name" xml:space="preserve">
+    <value>_mousePositionLabel</value>
+  </data>
+  <data name="&gt;&gt;_mousePositionLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_mousePositionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_mousePositionLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;_nextPageToolStripButton.Name" xml:space="preserve">
+    <value>_nextPageToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_nextPageToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_pageInfoLabel.Name" xml:space="preserve">
+    <value>_pageInfoLabel</value>
+  </data>
+  <data name="&gt;&gt;_pageInfoLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_pageInfoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_pageInfoLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;_pageToolStripLabel.Name" xml:space="preserve">
+    <value>_pageToolStripLabel</value>
+  </data>
+  <data name="&gt;&gt;_pageToolStripLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_pageToolStripTextBox.Name" xml:space="preserve">
+    <value>_pageToolStripTextBox</value>
+  </data>
+  <data name="&gt;&gt;_pageToolStripTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_panModeToolStripButton.Name" xml:space="preserve">
+    <value>_panModeToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_panModeToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_previousPageToolStripButton.Name" xml:space="preserve">
+    <value>_previousPageToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_previousPageToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_rasterImageViewer.Name" xml:space="preserve">
+    <value>_rasterImageViewer</value>
+  </data>
+  <data name="&gt;&gt;_rasterImageViewer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_rasterImageViewer.Type" xml:space="preserve">
+    <value>Leadtools.WinForms.RasterImageViewer, Leadtools.WinForms, Version=18.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907</value>
+  </data>
+  <data name="&gt;&gt;_rasterImageViewer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodeModeToolStripButton.Name" xml:space="preserve">
+    <value>_readBarcodeModeToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodeModeToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_regionModeToolStripButton.Name" xml:space="preserve">
+    <value>_regionModeToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_regionModeToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_selectModeToolStripButton.Name" xml:space="preserve">
+    <value>_selectModeToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_selectModeToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_showBarcodesToolStripButton.Name" xml:space="preserve">
+    <value>_showBarcodesToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_showBarcodesToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_toolStrip.Name" xml:space="preserve">
+    <value>_toolStrip</value>
+  </data>
+  <data name="&gt;&gt;_toolStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_toolStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_toolStrip.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;_toolStripSeparator1.Name" xml:space="preserve">
+    <value>_toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;_toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_toolStripSeparator2.Name" xml:space="preserve">
+    <value>_toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;_toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_toolStripSeparator3.Name" xml:space="preserve">
+    <value>_toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;_toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_writeBarcodeModeToolStripButton.Name" xml:space="preserve">
+    <value>_writeBarcodeModeToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_writeBarcodeModeToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_zoomInToolStripButton.Name" xml:space="preserve">
+    <value>_zoomInToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_zoomInToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_zoomOutToolStripButton.Name" xml:space="preserve">
+    <value>_zoomOutToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_zoomOutToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_zoomToolStripComboBox.Name" xml:space="preserve">
+    <value>_zoomToolStripComboBox</value>
+  </data>
+  <data name="&gt;&gt;_zoomToolStripComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_zoomToSelectionModeToolStripButton.Name" xml:space="preserve">
+    <value>_zoomToSelectionModeToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_zoomToSelectionModeToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_mousePositionLabel.Text" xml:space="preserve">
+    <value>_mousePositionLabel</value>
+  </data>
+  <data name="_pageInfoLabel.Text" xml:space="preserve">
+    <value>_pageInfoLabel</value>
+  </data>
+  <data name="_pageToolStripLabel.Text" xml:space="preserve">
+    <value>/ WWW</value>
+  </data>
+  <data name="_zoomToolStripComboBox.Items" xml:space="preserve">
+    <value>10%</value>
+  </data>
+  <data name="_zoomToolStripComboBox.Items1" xml:space="preserve">
+    <value>25%</value>
+  </data>
+  <data name="_zoomToolStripComboBox.Items10" xml:space="preserve">
+    <value>2400%</value>
+  </data>
+  <data name="_zoomToolStripComboBox.Items11" xml:space="preserve">
+    <value>3200%</value>
+  </data>
+  <data name="_zoomToolStripComboBox.Items12" xml:space="preserve">
+    <value>6400%</value>
+  </data>
+  <data name="_zoomToolStripComboBox.Items2" xml:space="preserve">
+    <value>50%</value>
+  </data>
+  <data name="_zoomToolStripComboBox.Items3" xml:space="preserve">
+    <value>75%</value>
+  </data>
+  <data name="_zoomToolStripComboBox.Items4" xml:space="preserve">
+    <value>100%</value>
+  </data>
+  <data name="_zoomToolStripComboBox.Items5" xml:space="preserve">
+    <value>125%</value>
+  </data>
+  <data name="_zoomToolStripComboBox.Items6" xml:space="preserve">
+    <value>200%</value>
+  </data>
+  <data name="_zoomToolStripComboBox.Items7" xml:space="preserve">
+    <value>400%</value>
+  </data>
+  <data name="_zoomToolStripComboBox.Items8" xml:space="preserve">
+    <value>800%</value>
+  </data>
+  <data name="_zoomToolStripComboBox.Items9" xml:space="preserve">
+    <value>1600%</value>
+  </data>
+</root>

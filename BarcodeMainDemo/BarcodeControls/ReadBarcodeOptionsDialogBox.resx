@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_okButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="_okButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>699, 530</value>
+  </data>
+  <data name="_okButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_okButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="_okButton.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;_okButton.Name" xml:space="preserve">
+    <value>_okButton</value>
+  </data>
+  <data name="&gt;&gt;_okButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_okButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_okButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_cancelButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="_cancelButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>618, 530</value>
+  </data>
+  <data name="_cancelButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="_cancelButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_cancelButton.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;_cancelButton.Name" xml:space="preserve">
+    <value>_cancelButton</value>
+  </data>
+  <data name="&gt;&gt;_cancelButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_cancelButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_cancelButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_helpButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="_helpButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 530</value>
+  </data>
+  <data name="_helpButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="_helpButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_helpButton.Text" xml:space="preserve">
+    <value>&amp;Help...</value>
+  </data>
+  <data name="&gt;&gt;_helpButton.Name" xml:space="preserve">
+    <value>_helpButton</value>
+  </data>
+  <data name="&gt;&gt;_helpButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_helpButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_helpButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_mainPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="_addAllSupportedSymbologiesButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="_addAllSupportedSymbologiesButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 209</value>
+  </data>
+  <data name="_addAllSupportedSymbologiesButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 23</value>
+  </data>
+  <data name="_addAllSupportedSymbologiesButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="_addAllSupportedSymbologiesButton.Text" xml:space="preserve">
+    <value>Add all supported s&amp;ymbologies</value>
+  </data>
+  <data name="&gt;&gt;_addAllSupportedSymbologiesButton.Name" xml:space="preserve">
+    <value>_addAllSupportedSymbologiesButton</value>
+  </data>
+  <data name="&gt;&gt;_addAllSupportedSymbologiesButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_addAllSupportedSymbologiesButton.Parent" xml:space="preserve">
+    <value>_selectedPanel</value>
+  </data>
+  <data name="&gt;&gt;_addAllSupportedSymbologiesButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_removeAllButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="_removeAllButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 209</value>
+  </data>
+  <data name="_removeAllButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="_removeAllButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="_removeAllButton.Text" xml:space="preserve">
+    <value>Remo&amp;ve all</value>
+  </data>
+  <data name="&gt;&gt;_removeAllButton.Name" xml:space="preserve">
+    <value>_removeAllButton</value>
+  </data>
+  <data name="&gt;&gt;_removeAllButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_removeAllButton.Parent" xml:space="preserve">
+    <value>_selectedPanel</value>
+  </data>
+  <data name="&gt;&gt;_removeAllButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_removeButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="_removeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 209</value>
+  </data>
+  <data name="_removeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="_removeButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_removeButton.Text" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="&gt;&gt;_removeButton.Name" xml:space="preserve">
+    <value>_removeButton</value>
+  </data>
+  <data name="&gt;&gt;_removeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_removeButton.Parent" xml:space="preserve">
+    <value>_selectedPanel</value>
+  </data>
+  <data name="&gt;&gt;_removeButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_toReadSymbologyListBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="_toReadSymbologyListBox.ColumnWidth" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="_toReadSymbologyListBox.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="_toReadSymbologyListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="_toReadSymbologyListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 29</value>
+  </data>
+  <data name="_toReadSymbologyListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>480, 174</value>
+  </data>
+  <data name="_toReadSymbologyListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;_toReadSymbologyListBox.Name" xml:space="preserve">
+    <value>_toReadSymbologyListBox</value>
+  </data>
+  <data name="&gt;&gt;_toReadSymbologyListBox.Type" xml:space="preserve">
+    <value>BarcodeMainDemo.BarcodeControls.SymbologyListBox, CSBarcodeMainDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_toReadSymbologyListBox.Parent" xml:space="preserve">
+    <value>_selectedPanel</value>
+  </data>
+  <data name="&gt;&gt;_toReadSymbologyListBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_toReadLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_toReadLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="_toReadLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 13</value>
+  </data>
+  <data name="_toReadLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_toReadLabel.Text" xml:space="preserve">
+    <value>&amp;Symbologies to search for in next Read Barcode(s) operation:</value>
+  </data>
+  <data name="&gt;&gt;_toReadLabel.Name" xml:space="preserve">
+    <value>_toReadLabel</value>
+  </data>
+  <data name="&gt;&gt;_toReadLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_toReadLabel.Parent" xml:space="preserve">
+    <value>_selectedPanel</value>
+  </data>
+  <data name="&gt;&gt;_toReadLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_selectedPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="_selectedPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 0</value>
+  </data>
+  <data name="_selectedPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>502, 244</value>
+  </data>
+  <data name="_selectedPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;_selectedPanel.Name" xml:space="preserve">
+    <value>_selectedPanel</value>
+  </data>
+  <data name="&gt;&gt;_selectedPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_selectedPanel.Parent" xml:space="preserve">
+    <value>_bottomPanel</value>
+  </data>
+  <data name="&gt;&gt;_selectedPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_allGroupSymbologesAddedLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="_allGroupSymbologesAddedLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_allGroupSymbologesAddedLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 193</value>
+  </data>
+  <data name="_allGroupSymbologesAddedLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 13</value>
+  </data>
+  <data name="_allGroupSymbologesAddedLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_allGroupSymbologesAddedLabel.Text" xml:space="preserve">
+    <value>All symbologies added</value>
+  </data>
+  <data name="&gt;&gt;_allGroupSymbologesAddedLabel.Name" xml:space="preserve">
+    <value>_allGroupSymbologesAddedLabel</value>
+  </data>
+  <data name="&gt;&gt;_allGroupSymbologesAddedLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_allGroupSymbologesAddedLabel.Parent" xml:space="preserve">
+    <value>_availablePanel</value>
+  </data>
+  <data name="&gt;&gt;_allGroupSymbologesAddedLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_addAllButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="_addAllButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 209</value>
+  </data>
+  <data name="_addAllButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="_addAllButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="_addAllButton.Text" xml:space="preserve">
+    <value>Add a&amp;ll</value>
+  </data>
+  <data name="&gt;&gt;_addAllButton.Name" xml:space="preserve">
+    <value>_addAllButton</value>
+  </data>
+  <data name="&gt;&gt;_addAllButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_addAllButton.Parent" xml:space="preserve">
+    <value>_availablePanel</value>
+  </data>
+  <data name="&gt;&gt;_addAllButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_addButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="_addButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 209</value>
+  </data>
+  <data name="_addButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="_addButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="_addButton.Text" xml:space="preserve">
+    <value>&amp;Add</value>
+  </data>
+  <data name="&gt;&gt;_addButton.Name" xml:space="preserve">
+    <value>_addButton</value>
+  </data>
+  <data name="&gt;&gt;_addButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_addButton.Parent" xml:space="preserve">
+    <value>_availablePanel</value>
+  </data>
+  <data name="&gt;&gt;_addButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_availableSymbologyListBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="_availableSymbologyListBox.ColumnWidth" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="_availableSymbologyListBox.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="_availableSymbologyListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="_availableSymbologyListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 29</value>
+  </data>
+  <data name="_availableSymbologyListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 160</value>
+  </data>
+  <data name="_availableSymbologyListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;_availableSymbologyListBox.Name" xml:space="preserve">
+    <value>_availableSymbologyListBox</value>
+  </data>
+  <data name="&gt;&gt;_availableSymbologyListBox.Type" xml:space="preserve">
+    <value>BarcodeMainDemo.BarcodeControls.SymbologyListBox, CSBarcodeMainDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_availableSymbologyListBox.Parent" xml:space="preserve">
+    <value>_availablePanel</value>
+  </data>
+  <data name="&gt;&gt;_availableSymbologyListBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_availableLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_availableLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 13</value>
+  </data>
+  <data name="_availableLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 13</value>
+  </data>
+  <data name="_availableLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_availableLabel.Text" xml:space="preserve">
+    <value>E&amp;xtra symbologies available in this group:</value>
+  </data>
+  <data name="&gt;&gt;_availableLabel.Name" xml:space="preserve">
+    <value>_availableLabel</value>
+  </data>
+  <data name="&gt;&gt;_availableLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_availableLabel.Parent" xml:space="preserve">
+    <value>_availablePanel</value>
+  </data>
+  <data name="&gt;&gt;_availableLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_availablePanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="_availablePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="_availablePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 244</value>
+  </data>
+  <data name="_availablePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_availablePanel.Name" xml:space="preserve">
+    <value>_availablePanel</value>
+  </data>
+  <data name="&gt;&gt;_availablePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_availablePanel.Parent" xml:space="preserve">
+    <value>_bottomPanel</value>
+  </data>
+  <data name="&gt;&gt;_availablePanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_bottomPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="_bottomPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 267</value>
+  </data>
+  <data name="_bottomPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>760, 244</value>
+  </data>
+  <data name="_bottomPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;_bottomPanel.Name" xml:space="preserve">
+    <value>_bottomPanel</value>
+  </data>
+  <data name="&gt;&gt;_bottomPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_bottomPanel.Parent" xml:space="preserve">
+    <value>_mainPanel</value>
+  </data>
+  <data name="&gt;&gt;_bottomPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_mainSplitter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="_mainSplitter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 261</value>
+  </data>
+  <data name="_mainSplitter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>760, 6</value>
+  </data>
+  <data name="_mainSplitter.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;_mainSplitter.Name" xml:space="preserve">
+    <value>_mainSplitter</value>
+  </data>
+  <data name="&gt;&gt;_mainSplitter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_mainSplitter.Parent" xml:space="preserve">
+    <value>_mainPanel</value>
+  </data>
+  <data name="&gt;&gt;_mainSplitter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_groupOptionsResetToDefaultsButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="_groupOptionsResetToDefaultsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>606, 3</value>
+  </data>
+  <data name="_groupOptionsResetToDefaultsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 23</value>
+  </data>
+  <data name="_groupOptionsResetToDefaultsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="_groupOptionsResetToDefaultsButton.Text" xml:space="preserve">
+    <value>Resets to &amp;defaults</value>
+  </data>
+  <data name="&gt;&gt;_groupOptionsResetToDefaultsButton.Name" xml:space="preserve">
+    <value>_groupOptionsResetToDefaultsButton</value>
+  </data>
+  <data name="&gt;&gt;_groupOptionsResetToDefaultsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_groupOptionsResetToDefaultsButton.Parent" xml:space="preserve">
+    <value>_topPanel</value>
+  </data>
+  <data name="&gt;&gt;_groupOptionsResetToDefaultsButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_groupPropertyGrid.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="_groupPropertyGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 31</value>
+  </data>
+  <data name="_groupPropertyGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>571, 217</value>
+  </data>
+  <data name="_groupPropertyGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;_groupPropertyGrid.Name" xml:space="preserve">
+    <value>_groupPropertyGrid</value>
+  </data>
+  <data name="&gt;&gt;_groupPropertyGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PropertyGrid, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_groupPropertyGrid.Parent" xml:space="preserve">
+    <value>_topPanel</value>
+  </data>
+  <data name="&gt;&gt;_groupPropertyGrid.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_groupOptionsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_groupOptionsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 12</value>
+  </data>
+  <data name="_groupOptionsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="_groupOptionsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_groupOptionsLabel.Text" xml:space="preserve">
+    <value>Group read &amp;options:</value>
+  </data>
+  <data name="&gt;&gt;_groupOptionsLabel.Name" xml:space="preserve">
+    <value>_groupOptionsLabel</value>
+  </data>
+  <data name="&gt;&gt;_groupOptionsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_groupOptionsLabel.Parent" xml:space="preserve">
+    <value>_topPanel</value>
+  </data>
+  <data name="&gt;&gt;_groupOptionsLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_groupsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_groupsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 12</value>
+  </data>
+  <data name="_groupsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 13</value>
+  </data>
+  <data name="_groupsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_groupsLabel.Text" xml:space="preserve">
+    <value>Barcode symbology &amp;groups:</value>
+  </data>
+  <data name="&gt;&gt;_groupsLabel.Name" xml:space="preserve">
+    <value>_groupsLabel</value>
+  </data>
+  <data name="&gt;&gt;_groupsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_groupsLabel.Parent" xml:space="preserve">
+    <value>_topPanel</value>
+  </data>
+  <data name="&gt;&gt;_groupsLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_groupsListBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="_groupsListBox.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="_groupsListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 31</value>
+  </data>
+  <data name="_groupsListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 217</value>
+  </data>
+  <data name="_groupsListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;_groupsListBox.Name" xml:space="preserve">
+    <value>_groupsListBox</value>
+  </data>
+  <data name="&gt;&gt;_groupsListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_groupsListBox.Parent" xml:space="preserve">
+    <value>_topPanel</value>
+  </data>
+  <data name="&gt;&gt;_groupsListBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_topPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="_topPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="_topPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>760, 261</value>
+  </data>
+  <data name="_topPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_topPanel.Name" xml:space="preserve">
+    <value>_topPanel</value>
+  </data>
+  <data name="&gt;&gt;_topPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_topPanel.Parent" xml:space="preserve">
+    <value>_mainPanel</value>
+  </data>
+  <data name="&gt;&gt;_topPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_mainPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 13</value>
+  </data>
+  <data name="_mainPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>760, 511</value>
+  </data>
+  <data name="_mainPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;_mainPanel.Name" xml:space="preserve">
+    <value>_mainPanel</value>
+  </data>
+  <data name="&gt;&gt;_mainPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_mainPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_mainPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_readBarcodesWhenDialogClosesCheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="_readBarcodesWhenDialogClosesCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_readBarcodesWhenDialogClosesCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 534</value>
+  </data>
+  <data name="_readBarcodesWhenDialogClosesCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 17</value>
+  </data>
+  <data name="_readBarcodesWhenDialogClosesCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_readBarcodesWhenDialogClosesCheckBox.Text" xml:space="preserve">
+    <value>Read &amp;barcodes when dialog closes</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodesWhenDialogClosesCheckBox.Name" xml:space="preserve">
+    <value>_readBarcodesWhenDialogClosesCheckBox</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodesWhenDialogClosesCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodesWhenDialogClosesCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodesWhenDialogClosesCheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>784, 562</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Read Barcodes Options</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ReadBarcodeOptionsDialogBox</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Resx_Help1stLine" xml:space="preserve">
+    <value>Select a group of symbologies and change its options if needed. When a group is selected, extra symbologies available in the group will be shown in the bottom left box.</value>
+  </data>
+  <data name="Resx_Help2ndLine" xml:space="preserve">
+    <value>You can add these symbologies to the bottom right box by selecting them and clicking the \"Add\" or \"Add all\" buttons.</value>
+  </data>
+  <data name="Resx_Help3rdLine" xml:space="preserve">
+    <value>The bottom right box, contains the symbologies that will be used in all subsequent barcode reading operations.</value>
+  </data>
+  <data name="Resx_Help4thLine" xml:space="preserve">
+    <value>You can remove any symbologies you are not interested in reading by selecting them and clicking the \"Remove\" or \"Remove all\" buttons.</value>
+  </data>
+  <data name="Resx_Help5thLine" xml:space="preserve">
+    <value>Note that selecting only the barcode symbologies that you are certain exist in the document will greatly enhance the recognition speed.</value>
+  </data>
+  <data name="Resx_HelpMsg" xml:space="preserve">
+    <value>Help for the Read Barcodes Options</value>
+  </data>
+</root>

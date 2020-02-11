@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="_tbFirstPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 149</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_tbFirstPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="_tbFirstPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_tbFirstPage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;_tbFirstPage.Name" xml:space="preserve">
+    <value>_tbFirstPage</value>
+  </data>
+  <data name="&gt;&gt;_tbFirstPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_tbFirstPage.Parent" xml:space="preserve">
+    <value>_gbPages</value>
+  </data>
+  <data name="&gt;&gt;_tbFirstPage.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="_lblInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 23</value>
+  </data>
+  <data name="_lblInfo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="_lblInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 30</value>
+  </data>
+  <data name="_lblInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_lblInfo.Text" xml:space="preserve">
+    <value>This file has ### total pages.  Select the $$$ you want to load:</value>
+  </data>
+  <data name="&gt;&gt;_lblInfo.Name" xml:space="preserve">
+    <value>_lblInfo</value>
+  </data>
+  <data name="&gt;&gt;_lblInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblInfo.Parent" xml:space="preserve">
+    <value>_gbPages</value>
+  </data>
+  <data name="&gt;&gt;_lblInfo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="_tbPageNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 89</value>
+  </data>
+  <data name="_tbPageNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="_tbPageNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 20</value>
+  </data>
+  <data name="_tbPageNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;_tbPageNumber.Name" xml:space="preserve">
+    <value>_tbPageNumber</value>
+  </data>
+  <data name="&gt;&gt;_tbPageNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_tbPageNumber.Parent" xml:space="preserve">
+    <value>_gbPages</value>
+  </data>
+  <data name="&gt;&gt;_tbPageNumber.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_lblPageNumber.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_lblPageNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 92</value>
+  </data>
+  <data name="_lblPageNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="_lblPageNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="_lblPageNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="_lblPageNumber.Text" xml:space="preserve">
+    <value>Page Number:</value>
+  </data>
+  <data name="_lblPageNumber.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;_lblPageNumber.Name" xml:space="preserve">
+    <value>_lblPageNumber</value>
+  </data>
+  <data name="&gt;&gt;_lblPageNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblPageNumber.Parent" xml:space="preserve">
+    <value>_gbPages</value>
+  </data>
+  <data name="&gt;&gt;_lblPageNumber.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_rbLoadMultiPages.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_rbLoadMultiPages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 123</value>
+  </data>
+  <data name="_rbLoadMultiPages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 17</value>
+  </data>
+  <data name="_rbLoadMultiPages.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="_rbLoadMultiPages.Text" xml:space="preserve">
+    <value>Load &amp;multi-pages</value>
+  </data>
+  <data name="&gt;&gt;_rbLoadMultiPages.Name" xml:space="preserve">
+    <value>_rbLoadMultiPages</value>
+  </data>
+  <data name="&gt;&gt;_rbLoadMultiPages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_rbLoadMultiPages.Parent" xml:space="preserve">
+    <value>_gbPages</value>
+  </data>
+  <data name="&gt;&gt;_rbLoadMultiPages.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_rbLoadSinglePage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_rbLoadSinglePage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 65</value>
+  </data>
+  <data name="_rbLoadSinglePage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="_rbLoadSinglePage.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="_rbLoadSinglePage.Text" xml:space="preserve">
+    <value>Load &amp;single page</value>
+  </data>
+  <data name="&gt;&gt;_rbLoadSinglePage.Name" xml:space="preserve">
+    <value>_rbLoadSinglePage</value>
+  </data>
+  <data name="&gt;&gt;_rbLoadSinglePage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_rbLoadSinglePage.Parent" xml:space="preserve">
+    <value>_gbPages</value>
+  </data>
+  <data name="&gt;&gt;_rbLoadSinglePage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_tbLastPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 176</value>
+  </data>
+  <data name="_tbLastPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="_tbLastPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 20</value>
+  </data>
+  <data name="_tbLastPage.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;_tbLastPage.Name" xml:space="preserve">
+    <value>_tbLastPage</value>
+  </data>
+  <data name="&gt;&gt;_tbLastPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_tbLastPage.Parent" xml:space="preserve">
+    <value>_gbPages</value>
+  </data>
+  <data name="&gt;&gt;_tbLastPage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_lblLastPage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_lblLastPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 179</value>
+  </data>
+  <data name="_lblLastPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="_lblLastPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="_lblLastPage.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="_lblLastPage.Text" xml:space="preserve">
+    <value>Last Page:</value>
+  </data>
+  <data name="_lblLastPage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;_lblLastPage.Name" xml:space="preserve">
+    <value>_lblLastPage</value>
+  </data>
+  <data name="&gt;&gt;_lblLastPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblLastPage.Parent" xml:space="preserve">
+    <value>_gbPages</value>
+  </data>
+  <data name="&gt;&gt;_lblLastPage.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="_lblFirstPage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_lblFirstPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 152</value>
+  </data>
+  <data name="_lblFirstPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="_lblFirstPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="_lblFirstPage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_lblFirstPage.Text" xml:space="preserve">
+    <value>First Page:</value>
+  </data>
+  <data name="_lblFirstPage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;_lblFirstPage.Name" xml:space="preserve">
+    <value>_lblFirstPage</value>
+  </data>
+  <data name="&gt;&gt;_lblFirstPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblFirstPage.Parent" xml:space="preserve">
+    <value>_gbPages</value>
+  </data>
+  <data name="&gt;&gt;_lblFirstPage.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="_gbPages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 10</value>
+  </data>
+  <data name="_gbPages.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="_gbPages.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="_gbPages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 208</value>
+  </data>
+  <data name="_gbPages.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;_gbPages.Name" xml:space="preserve">
+    <value>_gbPages</value>
+  </data>
+  <data name="&gt;&gt;_gbPages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_gbPages.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_gbPages.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_btnCancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="_btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 47</value>
+  </data>
+  <data name="_btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="_btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 22</value>
+  </data>
+  <data name="_btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="_btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;_btnCancel.Name" xml:space="preserve">
+    <value>_btnCancel</value>
+  </data>
+  <data name="&gt;&gt;_btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_btnOk.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="_btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 17</value>
+  </data>
+  <data name="_btnOk.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="_btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 22</value>
+  </data>
+  <data name="_btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="_btnOk.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;_btnOk.Name" xml:space="preserve">
+    <value>_btnOk</value>
+  </data>
+  <data name="&gt;&gt;_btnOk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_btnOk.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>338, 230</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Load Pages</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ImageFileLoaderPagesDialog</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Resx_FirstPage" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="Resx_LastPage" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="Resx_page" xml:space="preserve">
+    <value>page</value>
+  </data>
+  <data name="Resx_PageNum" xml:space="preserve">
+    <value>Page Number</value>
+  </data>
+  <data name="Resx_pages" xml:space="preserve">
+    <value>pages</value>
+  </data>
+</root>

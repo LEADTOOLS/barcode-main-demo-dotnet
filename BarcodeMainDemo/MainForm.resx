@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="_mainMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_newToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+N</value>
+  </data>
+  <data name="_newToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="_newToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;New...</value>
+  </data>
+  <data name="_newToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Create a new document</value>
+  </data>
+  <data name="_openToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+O</value>
+  </data>
+  <data name="_openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="_openToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Open...</value>
+  </data>
+  <data name="_openToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Open a document from disk</value>
+  </data>
+  <data name="_saveToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+S</value>
+  </data>
+  <data name="_saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="_saveToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Save...</value>
+  </data>
+  <data name="_saveToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Save current document to disk</value>
+  </data>
+  <data name="_closeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="_closeToolStripMenuItem.Text" xml:space="preserve">
+    <value>C&amp;lose</value>
+  </data>
+  <data name="_closeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Close current document</value>
+  </data>
+  <data name="_fileSep1toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 6</value>
+  </data>
+  <data name="_selectSourceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="_selectSourceToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Select source...</value>
+  </data>
+  <data name="_selectSourceToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Select the TWAIN source</value>
+  </data>
+  <data name="_acquireToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="_acquireToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Acquire...</value>
+  </data>
+  <data name="_acquireToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Scan an image</value>
+  </data>
+  <data name="_scanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="_scanToolStripMenuItem.Text" xml:space="preserve">
+    <value>S&amp;can</value>
+  </data>
+  <data name="_fileSep2ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 6</value>
+  </data>
+  <data name="_exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="_exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="_exitToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Close the application</value>
+  </data>
+  <data name="_fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="_fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="_copyImageToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+C</value>
+  </data>
+  <data name="_copyImageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="_copyImageToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Copy image</value>
+  </data>
+  <data name="_copyImageToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Copy the image in the clipboard</value>
+  </data>
+  <data name="_pasteImageToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+V</value>
+  </data>
+  <data name="_pasteImageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="_pasteImageToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Paste image</value>
+  </data>
+  <data name="_pasteImageToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Paste the image of the current page into the clipboard</value>
+  </data>
+  <data name="_editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="_editToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="_zoomOutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="_zoomOutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Zoom &amp;out</value>
+  </data>
+  <data name="_zoomOutToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Zoom out</value>
+  </data>
+  <data name="_zoomInToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="_zoomInToolStripMenuItem.Text" xml:space="preserve">
+    <value>Zoom &amp;in</value>
+  </data>
+  <data name="_zoomInToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Zoom in</value>
+  </data>
+  <data name="_editSep1ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 6</value>
+  </data>
+  <data name="_fitWidthToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="_fitWidthToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Fit width</value>
+  </data>
+  <data name="_fitWidthToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Fit the image width into the window</value>
+  </data>
+  <data name="_fitPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="_fitPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fit &amp;page</value>
+  </data>
+  <data name="_fitPageToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Fit the image into the window</value>
+  </data>
+  <data name="_viewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="_viewToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="_previousPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="_previousPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>P&amp;revious</value>
+  </data>
+  <data name="_previousPageToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Go to previous page in the document</value>
+  </data>
+  <data name="_nextPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="_nextPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Next</value>
+  </data>
+  <data name="_nextPageToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Go to next page in the document</value>
+  </data>
+  <data name="_gotoPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="_gotoPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Goto page...</value>
+  </data>
+  <data name="_gotoPageToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Go to a specific page in the document</value>
+  </data>
+  <data name="_pageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="_pageToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Page</value>
+  </data>
+  <data name="_selectModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="_selectModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Select</value>
+  </data>
+  <data name="_selectModeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Set selection mode</value>
+  </data>
+  <data name="_panModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="_panModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Pan</value>
+  </data>
+  <data name="_panModeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Pan the page using the mouse</value>
+  </data>
+  <data name="_zoomToModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="_zoomToModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Zoom to</value>
+  </data>
+  <data name="_zoomToModeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Zoom to a specific rectangle using the mouse</value>
+  </data>
+  <data name="_drawRegionModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="_drawRegionModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Region of interest</value>
+  </data>
+  <data name="_drawRegionModeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Select the region of interest using the mouse</value>
+  </data>
+  <data name="_readBarcodeModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="_readBarcodeModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Read barcode</value>
+  </data>
+  <data name="_readBarcodeModeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Draw a rectangle around a barcode to read using current read symbologies and options</value>
+  </data>
+  <data name="_writeBarcodeModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="_writeBarcodeModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Write &amp;barcode</value>
+  </data>
+  <data name="_writeBarcodeModeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Write a new barcode on the page</value>
+  </data>
+  <data name="_interactiveSep1ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 6</value>
+  </data>
+  <data name="_deleteRegionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="_deleteRegionToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Delete region</value>
+  </data>
+  <data name="_deleteRegionToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Delete (reset) the region of interest from this page</value>
+  </data>
+  <data name="_interactiveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="_interactiveToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Interactive</value>
+  </data>
+  <data name="_preprocessAllPagesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="_preprocessAllPagesToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;All pages</value>
+  </data>
+  <data name="_preprocessAllPagesToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Apply preprocessing to all or just current page of the document</value>
+  </data>
+  <data name="_preprocessingSep1ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 6</value>
+  </data>
+  <data name="_flipToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="_flipToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Flip</value>
+  </data>
+  <data name="_flipToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Flip the document vertically</value>
+  </data>
+  <data name="_reverseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="_reverseToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Reverse</value>
+  </data>
+  <data name="_reverseToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Flip the document horizontally</value>
+  </data>
+  <data name="_rotate90ClockwiseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="_rotate90ClockwiseToolStripMenuItem.Text" xml:space="preserve">
+    <value>R&amp;otate 90° clockwise</value>
+  </data>
+  <data name="_rotate90ClockwiseToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Rotate the document 90° clockwise</value>
+  </data>
+  <data name="_rotate90CounterclockwiseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="_rotate90CounterclockwiseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ro&amp;tate 90° counter clockwise</value>
+  </data>
+  <data name="_rotate90CounterclockwiseToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Rotate the document 90° counter clockwise</value>
+  </data>
+   <data name="_noiseFiltersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+      <value>222, 22</value>
+   </data>
+   <data name="_noiseFiltersToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Noise Filters</value>
+  </data>
+   <data name="_noiseMinFilterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+      <value>226, 22</value>
+   </data>
+   <data name="_noiseMinFilterToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mi&amp;nimum...</value>
+  </data>
+   <data name="_noiseMinFilterToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Minimum...</value>
+  </data>
+   <data name="_noiseMedianFilterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+      <value>226, 22</value>
+   </data>
+   <data name="_noiseMedianFilterToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Median...</value>
+  </data>
+   <data name="_noiseMedianFilterToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Median...</value>
+  </data>
+   <data name="_lineRemoveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+      <value>226, 22</value>
+   </data>
+   <data name="_lineRemoveToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Line Remove...</value>
+  </data>
+   <data name="_lineRemoveToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Line Remove...</value>
+  </data>
+   <data name="_imageDeskewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+      <value>226, 22</value>
+   </data>
+   <data name="_imageDeskewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Image &amp;Deskew...</value>
+  </data>
+   <data name="_imageDeskewToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Image Deskew...</value>
+  </data>
+   <data name="_segmentationPerspectiveMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+      <value>226, 22</value>
+   </data>
+   <data name="_segmentationPerspectiveMenuItem.Text" xml:space="preserve">
+    <value>Inverse Perspective...</value>
+  </data>
+   <data name="_segmentationPerspectiveMenuItem.ToolTipText" xml:space="preserve">
+    <value>Inverse Perspective...</value>
+  </data>
+   <data name="_perspectiveDeskewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+      <value>226, 22</value>
+   </data>
+   <data name="_perspectiveDeskewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Perspective Deskew</value>
+  </data>
+   <data name="_perspectiveDeskewToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Inverse Perspective...</value>
+  </data>
+   <data name="_noiseMaxFilterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+      <value>226, 22</value>
+   </data>
+   <data name="_noiseMaxFilterToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ma&amp;ximum...</value>
+  </data>
+   <data name="_noiseMaxFilterToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Maximum...</value>
+  </data>
+  <data name="_preprocessingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="_preprocessingToolStripMenuItem.Text" xml:space="preserve">
+    <value>P&amp;reprocessing</value>
+  </data>
+  <data name="_readBarcodesToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F5</value>
+  </data>
+  <data name="_readBarcodesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="_readBarcodesToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Read barcodes...</value>
+  </data>
+  <data name="_readBarcodesToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Read barcodes from this document using current read symbologies and options</value>
+  </data>
+  <data name="_readBarcodeOptionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="_readBarcodeOptionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Read symbologies &amp;options...</value>
+  </data>
+  <data name="_readBarcodeOptionsToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Set the symbologies and options used when reading barcodes</value>
+  </data>
+  <data name="_scannedDocumentImageTypeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="_scannedDocumentImageTypeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Scanned document</value>
+  </data>
+  <data name="_scannedDocumentImageTypeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>The image is a scanned document</value>
+  </data>
+  <data name="_pictureImageTypeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="_pictureImageTypeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Picture</value>
+  </data>
+  <data name="_pictureImageTypeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>The image is a picture</value>
+  </data>
+  <data name="_unknownImageTypeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="_unknownImageTypeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Unknown</value>
+  </data>
+  <data name="_unknownImageTypeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Uknown image type</value>
+  </data>
+  <data name="_barcodeImageTypeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="_barcodeImageTypeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Image type</value>
+  </data>
+   <data name="_barcodeReturnBoundariesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+      <value>222, 22</value>
+   </data>
+   <data name="_barcodeReturnBoundariesToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Boundaries type</value>
+  </data>
+   <data name="_returnBoundingRectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+      <value>177, 22</value>
+   </data>
+   <data name="_returnBoundingRectToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Rectangle</value>
+  </data>
+   <data name="_returnBoundingRectToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>A bounding rectangle of the barcode will be returned</value>
+  </data>
+   <data name="_returnFourPointsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+      <value>177, 22</value>
+   </data>
+   <data name="_returnFourPointsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Four Points</value>
+  </data>
+   <data name="_returnFourPointsToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Four points of the corners of the barcode will be returned</value>
+  </data>
+  <data name="_writeBarcodeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="_writeBarcodeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Write barcode...</value>
+  </data>
+  <data name="_writeBarcodeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Write a new barcode on the page</value>
+  </data>
+  <data name="_barcodeSep1ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 6</value>
+  </data>
+  <data name="_showBarcodesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="_showBarcodesToolStripMenuItem.Text" xml:space="preserve">
+    <value>S&amp;how barcodes</value>
+  </data>
+  <data name="_showBarcodesToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Show or hide the current barcodes of this document</value>
+  </data>
+  <data name="_barcodeSep2ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 6</value>
+  </data>
+  <data name="_saveCurrentReadOptionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="_saveCurrentReadOptionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Save current read options...</value>
+  </data>
+  <data name="_loadReadOptionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="_loadReadOptionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Load read options...</value>
+  </data>
+  <data name="_saveCurrentWriteOptionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="_saveCurrentWriteOptionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sa&amp;ve current write options...</value>
+  </data>
+  <data name="_loadWriteOptionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="_loadWriteOptionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Lo&amp;ad write options...</value>
+  </data>
+  <data name="_barcodeSep3ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 6</value>
+  </data>
+  <data name="_deleteSelectedBarcodeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="_deleteSelectedBarcodeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Delete selected barcode</value>
+  </data>
+  <data name="_zoomToSelectedBarcodeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="_zoomToSelectedBarcodeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Zoom to selected barcode</value>
+  </data>
+  <data name="_exportBarcodesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="_exportBarcodesToolStripMenuItem.Text" xml:space="preserve">
+    <value>E&amp;xport barcodes...</value>
+  </data>
+  <data name="_clearAllBarcodesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="_clearAllBarcodesToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Clear all barcodes</value>
+  </data>
+  <data name="_barcodeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 20</value>
+  </data>
+  <data name="_barcodeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Barcode</value>
+  </data>
+  <data name="_aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="_aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;About...</value>
+  </data>
+  <data name="_aboutToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>About this demo</value>
+  </data>
+  <data name="_helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="_helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="_mainMenuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="_mainMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>852, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_mainMenuStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_mainMenuStrip.Name" xml:space="preserve">
+    <value>_mainMenuStrip</value>
+  </data>
+  <data name="&gt;&gt;_mainMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_mainMenuStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_mainMenuStrip.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="_mainToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="_newToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="_newToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="_newToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Create a new document</value>
+  </data>
+  <data name="_openToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="_openToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="_openToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Open document from disk</value>
+  </data>
+  <data name="_saveToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="_saveToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="_saveToolStripButton.Text" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="_saveToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Save current document to disk</value>
+  </data>
+  <data name="_toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="_readBarcodesToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="_readBarcodesToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="_readBarcodesToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Read barcodes from this document using current read symbologies and options</value>
+  </data>
+  <data name="_readBarcodeOptionsToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="_readBarcodeOptionsToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="_readBarcodeOptionsToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Set the symbologies and options used when reading barcodes</value>
+  </data>
+  <data name="_writeBarcodeToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="_writeBarcodeToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="_writeBarcodeToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Write a new barcode on the page</value>
+  </data>
+  <data name="_mainToolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="_mainToolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>852, 25</value>
+  </data>
+  <data name="_mainToolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;_mainToolStrip.Name" xml:space="preserve">
+    <value>_mainToolStrip</value>
+  </data>
+  <data name="&gt;&gt;_mainToolStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_mainToolStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_mainToolStrip.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="_mainStatusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>267, 17</value>
+  </data>
+  <data name="_mainStatusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 536</value>
+  </data>
+  <data name="_mainStatusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>852, 22</value>
+  </data>
+  <data name="_mainStatusStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;_mainStatusStrip.Name" xml:space="preserve">
+    <value>_mainStatusStrip</value>
+  </data>
+  <data name="&gt;&gt;_mainStatusStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_mainStatusStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_mainStatusStrip.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_viewerSplitter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="_viewerSplitter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 337</value>
+  </data>
+  <data name="_viewerSplitter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>655, 5</value>
+  </data>
+  <data name="_viewerSplitter.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;_viewerSplitter.Name" xml:space="preserve">
+    <value>_viewerSplitter</value>
+  </data>
+  <data name="&gt;&gt;_viewerSplitter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_viewerSplitter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_viewerSplitter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_viewerControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="_viewerControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 49</value>
+  </data>
+  <data name="_viewerControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>655, 288</value>
+  </data>
+  <data name="_viewerControl.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;_viewerControl.Name" xml:space="preserve">
+    <value>_viewerControl</value>
+  </data>
+  <data name="&gt;&gt;_viewerControl.Type" xml:space="preserve">
+    <value>BarcodeMainDemo.ViewerControl.ViewerControl, CSBarcodeMainDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_viewerControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_viewerControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_barcodeControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="_barcodeControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 342</value>
+  </data>
+  <data name="_barcodeControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>655, 194</value>
+  </data>
+  <data name="_barcodeControl.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;_barcodeControl.Name" xml:space="preserve">
+    <value>_barcodeControl</value>
+  </data>
+  <data name="&gt;&gt;_barcodeControl.Type" xml:space="preserve">
+    <value>BarcodeMainDemo.BarcodeControls.BarcodeControl, CSBarcodeMainDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_barcodeControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_barcodeControl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_pagesControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="_pagesControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 49</value>
+  </data>
+  <data name="_pagesControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 487</value>
+  </data>
+  <data name="_pagesControl.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;_pagesControl.Name" xml:space="preserve">
+    <value>_pagesControl</value>
+  </data>
+  <data name="&gt;&gt;_pagesControl.Type" xml:space="preserve">
+    <value>BarcodeMainDemo.PagesControl.PagesControl, CSBarcodeMainDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_pagesControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_pagesControl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>852, 558</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        gP+ZgXz/ln54/5N8dP+ReXL/kHhw/5N7c//RyMb/lT04/6wRDf+rDQv/qAoL/6cJCv+pCAr/2AYI/9YD
+        BG/aBQaH2DQ3/82Qkv/EbnD/sy4u/6sOC/+tEg3/rhcP/7AcEP9YFpv/LRDZ/zQRv/9NOZ//rZuX/62Y
+        lP+qlJD/p5GM/6WPif+jjYf/ooyG/6GLhf+giYP/x7m1/5t2dP+qEg7/qg0L/6gKCv+vJij/wmZp/82M
+        j//TP0H/3QgJqOAKC5zahon/06ap/9CZnP/OjpH/w2Rl/7EjIv+sEAz/iRJM/zQRuv8pD+r/QRyJ/52Q
+        lv++ran/u6ml/7mmov+3o5//taGd/7Kemv+vmpX/q5aR/7Wjnv+2rav/jx8e/6kLC/+sGhv/v1hc/8yI
+        i//Pk5f/0qCj/9eSlP/hCQq44RARqNidoP/So6X/0JWZ/8yJjf/Je3//xW5x/7dCSP9EEKr/KQ/t/z4S
+        kf9tYaH/zsG+/8y+u//Ju7f/xbay/8Gxrf++rKj/uqej/7ajn/+0oZz/yL67/1xBeP9oFhf/tTg8/8Nm
+        av/HdXj/y4OH/86QlP/RnKD/1qap/+INDsrhEhOo2J6h/9Kgo//Pk5f/zIeK/8h4fP/EaW7/ezme/zIQ
+        xf8xEMj/SS2Q/8K4tv/Z0M3/1cvI/9HFwv/NwL3/ybu3/8W2sv/HuLX/zsK//87CwP94YGn/RBR3/1IX
+        Pf+SOj3/w2Nn/8Zxdv/Kf4T/zo2R/9Ganf/Wpqn/4g8Qy+APEJ3bkpX/0qCj/8+Slv/MhYn/yHZ6/7Je
+        ff88FbD/Kg/s/0YUav+Adaj/5d/d/+DZ2P/d1dP/39bU/93V0v/Tysf/vri2/6GVlf91Yo//YjpB/z4U
+        kv9aGBz/QBOF/2AcHP+3WV7/xnB0/8p+gv/NjJD/0Jmc/9edoP/hDA252wsMiOB7ff/SoKL/z5KW/8yF
+        if/Hdnr/Yi6n/ywP4P9AE4b/QBuU/6mjof/LxsX/urSy/6Samf+Bc5X/b1BT/0wxhP9ZIi7/QROF/1UX
+        L/9FFG//Uhc8/0oVXf9NFUz/UBZA/34yNf/GcHT/yn6C/82MkP/QmZz/3YiL/94PEKjXDQ1T5lha/9Og
+        o//PlJf/zIeK/7Bzmv9dSZX/VUeu/2FEXv8xHZH/TB0n/z4enP9VHDj/QROB/1UrUv93X37/cl+G/00q
+        N/88EWT/Vhcr/0YUav9UFx7/YUN1/4JnZv9lT3T/Rhoa/6ZaXf/KgIT/zo6R/9Ganf/mZ2r/2BUWb9oP
+        Dw7kJSf21aSm/9CWmf/Ih5D/rpje//////////////////v7/P+jW1//QBJZ/1UXL/+Lb5n/+vn5////
+        /////////Pv7/4p5e/9AEln/YCQp/8vC2v/////////////////v7e3/XyUm/8mBhf/OkJT/052g/+Y6
+        PP/ZFxgsAAAAAN4ODqXfi43/0Zmc/4RTqf+Uh/T//////48fHv+PHx7/593d//////+jW1//WTB5//z7
+        +//6+fn/jx8e/48fHv/49vb//Pz8/1Q1XP+ojJz//////+DW1v+PHx7/jx8e/+vk5v9WFxj/mVZY/8+U
+        l//em5z/3w4OxgAAAAAAAAAA2hoaLehGRP3EjpP/XR0n/5mI2///////jx8e/48fHv+PHx7//////9XP
+        z/+jW1///////6NbX/+PHx7/jx8e/6NbX///////o1tf/9jL0v//////jx8e/48fHv+PHx7/XR0i/1UX
+        Kv9gHyD/xoyO/+tdW//ZHh5NAAAAAAAAAAAAAAAA3BUSnNiBfv+0eHv/2Li7//////+PHx7/jx8e/48f
+        Hv//////59zc/6NbX///////o1tf/48fHv+PHx7/o1tf//////+jW1//7dfY//////+PHx7/jx8e/48f
+        Hv+jW1//qWds/7N0d//WkI7/3xoXtgAAAAAAAAAAAAAAAAAAAADcJyIR5TQp4t6ppf/oysv//////48f
+        Hv+PHx7/4M7P///////asrP/o1tf///////x7u//jx8e/48fHv/17Oz//////6NbX//jtLb//////8vA
+        wf+PHx7/jx8e/93Oz/+jW1//3q6s/+g/Nu3cMS0eAAAAAAAAAAAAAAAAAAAAAAAAAADbMSk461pG8/Hd
+        2v//////////////////////8d/g/6NbX//BWl//5r7A///////////////////////mwcP/v1db/8hu
+        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
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;_fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>_fileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_newToolStripMenuItem.Name" xml:space="preserve">
+    <value>_newToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_newToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_openToolStripMenuItem.Name" xml:space="preserve">
+    <value>_openToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_openToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_saveToolStripMenuItem.Name" xml:space="preserve">
+    <value>_saveToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_saveToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_closeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_closeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_closeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_fileSep1toolStripMenuItem.Name" xml:space="preserve">
+    <value>_fileSep1toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_fileSep1toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_scanToolStripMenuItem.Name" xml:space="preserve">
+    <value>_scanToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_scanToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_selectSourceToolStripMenuItem.Name" xml:space="preserve">
+    <value>_selectSourceToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_selectSourceToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_acquireToolStripMenuItem.Name" xml:space="preserve">
+    <value>_acquireToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_acquireToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_fileSep2ToolStripMenuItem.Name" xml:space="preserve">
+    <value>_fileSep2ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_fileSep2ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_exitToolStripMenuItem.Name" xml:space="preserve">
+    <value>_exitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_exitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_editToolStripMenuItem.Name" xml:space="preserve">
+    <value>_editToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_editToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_copyImageToolStripMenuItem.Name" xml:space="preserve">
+    <value>_copyImageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_copyImageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_pasteImageToolStripMenuItem.Name" xml:space="preserve">
+    <value>_pasteImageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_pasteImageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_viewToolStripMenuItem.Name" xml:space="preserve">
+    <value>_viewToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_viewToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_zoomOutToolStripMenuItem.Name" xml:space="preserve">
+    <value>_zoomOutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_zoomOutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_zoomInToolStripMenuItem.Name" xml:space="preserve">
+    <value>_zoomInToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_zoomInToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_editSep1ToolStripMenuItem.Name" xml:space="preserve">
+    <value>_editSep1ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_editSep1ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_fitWidthToolStripMenuItem.Name" xml:space="preserve">
+    <value>_fitWidthToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_fitWidthToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_fitPageToolStripMenuItem.Name" xml:space="preserve">
+    <value>_fitPageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_fitPageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_pageToolStripMenuItem.Name" xml:space="preserve">
+    <value>_pageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_pageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_previousPageToolStripMenuItem.Name" xml:space="preserve">
+    <value>_previousPageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_previousPageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_nextPageToolStripMenuItem.Name" xml:space="preserve">
+    <value>_nextPageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_nextPageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_gotoPageToolStripMenuItem.Name" xml:space="preserve">
+    <value>_gotoPageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_gotoPageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_interactiveToolStripMenuItem.Name" xml:space="preserve">
+    <value>_interactiveToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_interactiveToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_selectModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_selectModeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_selectModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_panModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_panModeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_panModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_zoomToModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_zoomToModeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_zoomToModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_drawRegionModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_drawRegionModeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_drawRegionModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodeModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_readBarcodeModeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodeModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_writeBarcodeModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_writeBarcodeModeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_writeBarcodeModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_interactiveSep1ToolStripMenuItem.Name" xml:space="preserve">
+    <value>_interactiveSep1ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_interactiveSep1ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_deleteRegionToolStripMenuItem.Name" xml:space="preserve">
+    <value>_deleteRegionToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_deleteRegionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_preprocessingToolStripMenuItem.Name" xml:space="preserve">
+    <value>_preprocessingToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_preprocessingToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_preprocessAllPagesToolStripMenuItem.Name" xml:space="preserve">
+    <value>_preprocessAllPagesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_preprocessAllPagesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_preprocessingSep1ToolStripMenuItem.Name" xml:space="preserve">
+    <value>_preprocessingSep1ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_preprocessingSep1ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_flipToolStripMenuItem.Name" xml:space="preserve">
+    <value>_flipToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_flipToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_reverseToolStripMenuItem.Name" xml:space="preserve">
+    <value>_reverseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_reverseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_rotate90ClockwiseToolStripMenuItem.Name" xml:space="preserve">
+    <value>_rotate90ClockwiseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_rotate90ClockwiseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_rotate90CounterclockwiseToolStripMenuItem.Name" xml:space="preserve">
+    <value>_rotate90CounterclockwiseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_rotate90CounterclockwiseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+   <data name="&gt;&gt;_noiseFiltersToolStripMenuItem.Name" xml:space="preserve">
+    <value>_noiseFiltersToolStripMenuItem</value>
+  </data>
+   <data name="&gt;&gt;_noiseFiltersToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+   <data name="&gt;&gt;_noiseMinFilterToolStripMenuItem.Name" xml:space="preserve">
+    <value>_noiseMinFilterToolStripMenuItem</value>
+  </data>
+   <data name="&gt;&gt;_noiseMinFilterToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+   <data name="&gt;&gt;_noiseMedianFilterToolStripMenuItem.Name" xml:space="preserve">
+    <value>_noiseMedianFilterToolStripMenuItem</value>
+   </data>
+   <data name="&gt;&gt;_noiseMedianFilterToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+   <data name="&gt;&gt;_lineRemoveToolStripMenuItem.Name" xml:space="preserve">
+    <value>_lineRemoveToolStripMenuItem</value>
+   </data>
+   <data name="&gt;&gt;_lineRemoveToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+   <data name="&gt;&gt;_imageDeskewToolStripMenuItem.Name" xml:space="preserve">
+    <value>_imageDeskewToolStripMenuItem</value>
+   </data>
+   <data name="&gt;&gt;_imageDeskewToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+   <data name="&gt;&gt;_segmentationPerspectiveMenuItem.Name" xml:space="preserve">
+    <value>_segmentationPerspectiveMenuItem</value>
+  </data>
+   <data name="&gt;&gt;_segmentationPerspectiveMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+   <data name="&gt;&gt;_perspectiveDeskewToolStripMenuItem.Name" xml:space="preserve">
+    <value>_perspectiveDeskewToolStripMenuItem</value>
+  </data>
+   <data name="&gt;&gt;_perspectiveDeskewToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+   <data name="&gt;&gt;_noiseMaxFilterToolStripMenuItem.Name" xml:space="preserve">
+    <value>_noiseMaxFilterToolStripMenuItem</value>
+  </data>
+   <data name="&gt;&gt;_noiseMaxFilterToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_barcodeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_barcodeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_barcodeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodesToolStripMenuItem.Name" xml:space="preserve">
+    <value>_readBarcodesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodeOptionsToolStripMenuItem.Name" xml:space="preserve">
+    <value>_readBarcodeOptionsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodeOptionsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_barcodeImageTypeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_barcodeImageTypeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_barcodeImageTypeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_scannedDocumentImageTypeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_scannedDocumentImageTypeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_scannedDocumentImageTypeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_pictureImageTypeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_pictureImageTypeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_pictureImageTypeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+   <data name="&gt;&gt;_barcodeReturnBoundariesToolStripMenuItem.Name" xml:space="preserve">
+    <value>_barcodeReturnBoundariesToolStripMenuItem</value>
+  </data>
+   <data name="&gt;&gt;_barcodeReturnBoundariesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_writeBarcodeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_writeBarcodeToolStripMenuItem</value>
+  </data>
+   <data name="&gt;&gt;_returnBoundingRectToolStripMenuItem.Name" xml:space="preserve">
+    <value>_returnBoundingRectToolStripMenuItem</value>
+  </data>
+   <data name="&gt;&gt;_returnBoundingRectToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+   <data name="&gt;&gt;_returnFourPointsToolStripMenuItem.Name" xml:space="preserve">
+    <value>_returnFourPointsToolStripMenuItem</value>
+  </data>
+   <data name="&gt;&gt;_returnFourPointsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+   <data name="&gt;&gt;_barcodeReturnBoundariesToolStripMenuItem.Name" xml:space="preserve">
+    <value>_barcodeReturnBoundariesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_writeBarcodeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_barcodeSep1ToolStripMenuItem.Name" xml:space="preserve">
+    <value>_barcodeSep1ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_barcodeSep1ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_showBarcodesToolStripMenuItem.Name" xml:space="preserve">
+    <value>_showBarcodesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_showBarcodesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_barcodeSep2ToolStripMenuItem.Name" xml:space="preserve">
+    <value>_barcodeSep2ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_barcodeSep2ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_saveCurrentReadOptionsToolStripMenuItem.Name" xml:space="preserve">
+    <value>_saveCurrentReadOptionsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_saveCurrentReadOptionsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_loadReadOptionsToolStripMenuItem.Name" xml:space="preserve">
+    <value>_loadReadOptionsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_loadReadOptionsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_saveCurrentWriteOptionsToolStripMenuItem.Name" xml:space="preserve">
+    <value>_saveCurrentWriteOptionsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_saveCurrentWriteOptionsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_loadWriteOptionsToolStripMenuItem.Name" xml:space="preserve">
+    <value>_loadWriteOptionsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_loadWriteOptionsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_barcodeSep3ToolStripMenuItem.Name" xml:space="preserve">
+    <value>_barcodeSep3ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_barcodeSep3ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_deleteSelectedBarcodeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_deleteSelectedBarcodeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_deleteSelectedBarcodeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_zoomToSelectedBarcodeToolStripMenuItem.Name" xml:space="preserve">
+    <value>_zoomToSelectedBarcodeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_zoomToSelectedBarcodeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_exportBarcodesToolStripMenuItem.Name" xml:space="preserve">
+    <value>_exportBarcodesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_exportBarcodesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_clearAllBarcodesToolStripMenuItem.Name" xml:space="preserve">
+    <value>_clearAllBarcodesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_clearAllBarcodesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_helpToolStripMenuItem.Name" xml:space="preserve">
+    <value>_helpToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_helpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_aboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>_aboutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_aboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_newToolStripButton.Name" xml:space="preserve">
+    <value>_newToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_newToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_openToolStripButton.Name" xml:space="preserve">
+    <value>_openToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_openToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_saveToolStripButton.Name" xml:space="preserve">
+    <value>_saveToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_saveToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_toolStripSeparator1.Name" xml:space="preserve">
+    <value>_toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;_toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodesToolStripButton.Name" xml:space="preserve">
+    <value>_readBarcodesToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodesToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodeOptionsToolStripButton.Name" xml:space="preserve">
+    <value>_readBarcodeOptionsToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_readBarcodeOptionsToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_writeBarcodeToolStripButton.Name" xml:space="preserve">
+    <value>_writeBarcodeToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;_writeBarcodeToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Resx_BarcodeError" xml:space="preserve">
+    <value>Barcode write error{0}{0}Code: {1}{0}Message: {2}{0}{0}Correct the write options by changing the bounds or the string size accordingly and try again.</value>
+  </data>
+  <data name="Resx_ClipboardImage" xml:space="preserve">
+    <value>Clipboard Image</value>
+  </data>
+  <data name="Resx_DefaultDocument" xml:space="preserve">
+    <value>Default Document</value>
+  </data>
+  <data name="Resx_LEADDocumentSupport" xml:space="preserve">
+    <value>LEADTOOLS Document Support (RasterSupportType.Document) is locked.</value>
+  </data>
+  <data name="Resx_LEADBarcodeSupport" xml:space="preserve">
+    <value>LEADTOOLS Barcode Support is locked. This demo cannot continue and will now exit.</value>
+  </data>
+  <data name="Resx_LEADError" xml:space="preserve">
+    <value>LEADTOOLS Error&#13;&#13;Code: {0}&#13;&#13;{1}</value>
+  </data>
+  <data name="Resx_LoadBarcodeReadOptions" xml:space="preserve">
+    <value>Load Barcode Read Options</value>
+  </data>
+  <data name="Resx_LoadBarcodeWriteOptions" xml:space="preserve">
+    <value>Load Barcode Write Options</value>
+  </data>
+  <data name="Resx_NewDocument" xml:space="preserve">
+    <value>New Document</value>
+  </data>
+  <data name="Resx_OldVersion" xml:space="preserve">
+    <value>You have an old version of TWAINDSM.DLL. Please download latest version of this DLL from http://www.twain.org</value>
+  </data>
+  <data name="Resx_SaveBarcodeData" xml:space="preserve">
+    <value>Save Barcode Data for Current Page</value>
+  </data>
+  <data name="Resx_SaveBarcodeReadOptions" xml:space="preserve">
+    <value>Save Current Barcode Read Options</value>
+  </data>
+  <data name="Resx_SaveBarcodeWriteOptions" xml:space="preserve">
+    <value>Save Current Barcode Write Options</value>
+  </data>
+  <data name="Resx_TwainError" xml:space="preserve">
+    <value>TWAIN Error&#13;&#13;Code: {0}&#13;&#13;{1}</value>
+  </data>
+  <data name="Resx_TwainScanning" xml:space="preserve">
+    <value>TWAIN Scanning Source</value>
+  </data>
+</root>

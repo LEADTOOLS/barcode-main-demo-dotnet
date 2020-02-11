@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup Condition="'$(ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch)' == ''">
+    <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{126B5526-A244-4D2E-B379-E1811A020ECE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BarcodeMainDemo</RootNamespace>
+    <AssemblyName>CSBarcodeMainDemo</AssemblyName>
+    <ApplicationIcon>Resources\DocAddon.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <LeadConfigPath>Bin\Debug\</LeadConfigPath>
+    <OutputPath>$(LeadConfigPath)</OutputPath>
+    <DefineConstants>DEBUG;TRACE;LTV20_CONFIG,LEADTOOLS_V16_OR_LATER,LEADTOOLS_V17_OR_LATER;LEADTOOLS_V175_OR_LATER;LEADTOOLS_V18_OR_LATER;FOR_DOTNET4;LEADTOOLS_V19_OR_LATER;LEADTOOLS_V20_OR_LATER;FOR_NUGET</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <LeadConfigPath>Bin\Release\</LeadConfigPath>
+    <OutputPath>$(LeadConfigPath)</OutputPath>
+    <DefineConstants>TRACE;LTV20_CONFIG,LEADTOOLS_V16_OR_LATER,LEADTOOLS_V17_OR_LATER;LEADTOOLS_V175_OR_LATER;LEADTOOLS_V18_OR_LATER;FOR_DOTNET4;LEADTOOLS_V19_OR_LATER;LEADTOOLS_V20_OR_LATER;FOR_NUGET</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <LeadConfigPath>bin\x86\Debug\</LeadConfigPath>
+    <OutputPath>$(LeadConfigPath)</OutputPath>
+    <DefineConstants>DEBUG;TRACE;LTV20_CONFIG,LEADTOOLS_V16_OR_LATER,LEADTOOLS_V17_OR_LATER;LEADTOOLS_V175_OR_LATER;LEADTOOLS_V18_OR_LATER;FOR_DOTNET4;LEADTOOLS_V19_OR_LATER;LEADTOOLS_V20_OR_LATER;FOR_NUGET</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <LeadConfigPath>bin\x86\Release\</LeadConfigPath>
+    <OutputPath>$(LeadConfigPath)</OutputPath>
+    <DefineConstants>TRACE;LTV20_CONFIG,LEADTOOLS_V16_OR_LATER,LEADTOOLS_V17_OR_LATER;LEADTOOLS_V175_OR_LATER;LEADTOOLS_V18_OR_LATER;FOR_DOTNET4;LEADTOOLS_V19_OR_LATER;LEADTOOLS_V20_OR_LATER;FOR_NUGET</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <LeadConfigPath>bin\x64\Debug\</LeadConfigPath>
+    <OutputPath>$(LeadConfigPath)</OutputPath>
+    <DefineConstants>DEBUG;TRACE;LTV20_CONFIG,LEADTOOLS_V16_OR_LATER,LEADTOOLS_V17_OR_LATER;LEADTOOLS_V175_OR_LATER;LEADTOOLS_V18_OR_LATER;FOR_DOTNET4;LEADTOOLS_V19_OR_LATER;FOR_WIN64;LEADTOOLS_V20_OR_LATER;FOR_NUGET</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <LeadConfigPath>bin\x64\Release\</LeadConfigPath>
+    <OutputPath>$(LeadConfigPath)</OutputPath>
+    <DefineConstants>TRACE;LTV20_CONFIG,LEADTOOLS_V16_OR_LATER,LEADTOOLS_V17_OR_LATER;LEADTOOLS_V175_OR_LATER;LEADTOOLS_V18_OR_LATER;FOR_DOTNET4;LEADTOOLS_V19_OR_LATER;FOR_WIN64;LEADTOOLS_V20_OR_LATER;FOR_NUGET</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Globalization.cs">
+    </Compile>
+    <Compile Include="Demos.cs">
+    </Compile>
+    <Compile Include="DialogUtilities.cs">
+    </Compile>
+    <Compile Include="ImageFileLoader.cs">
+    </Compile>
+    <Compile Include="ImageFileLoaderPagesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageFileLoaderPagesDialog.designer.cs">
+      <DependentUpon>ImageFileLoaderPagesDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageFileSaver.cs">
+    </Compile>
+    <Compile Include="ImageInformation.cs">
+    </Compile>
+    <Compile Include="Messager.cs">
+    </Compile>
+    <Compile Include="UnlockSupport.cs">
+      <Link>UnlockSupport.cs</Link>
+    </Compile>
+    <Compile Include="WaitCursor.cs">
+    </Compile>
+    <Compile Include="ActionEventArgs.cs" />
+    <Compile Include="BarcodeControls\AAMVADialogBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BarcodeControls\AAMVADialogBox.Designer.cs">
+      <DependentUpon>AAMVADialogBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarcodeControls\BarcodeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BarcodeControls\BarcodeControl.designer.cs">
+      <DependentUpon>BarcodeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarcodeControls\ReadBarcodeExtraDialogBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BarcodeControls\ReadBarcodeExtraDialogBox.Designer.cs">
+      <DependentUpon>ReadBarcodeExtraDialogBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarcodeControls\ReadBarcodeOptionsDialogBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BarcodeControls\ReadBarcodeOptionsDialogBox.Designer.cs">
+      <DependentUpon>ReadBarcodeOptionsDialogBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarcodeControls\ReadBarcodesDialogBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BarcodeControls\ReadBarcodesDialogBox.Designer.cs">
+      <DependentUpon>ReadBarcodesDialogBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarcodeControls\SymbologyListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BarcodeControls\SymbologyListBox.Designer.cs">
+      <DependentUpon>SymbologyListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarcodeControls\SymbologyListBoxItemDoubleClickedEventArgs.cs" />
+    <Compile Include="BarcodeControls\WriteBarcodeDialogBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BarcodeControls\WriteBarcodeDialogBox.Designer.cs">
+      <DependentUpon>WriteBarcodeDialogBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DemoOptions.cs" />
+    <Compile Include="DocumentBarcodes.cs" />
+    <Compile Include="GotoPageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GotoPageDialog.Designer.cs">
+      <DependentUpon>GotoPageDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewDocumentDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewDocumentDialog.designer.cs">
+      <DependentUpon>NewDocumentDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PagesControl\PagesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PagesControl\PagesControl.Designer.cs">
+      <DependentUpon>PagesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Preprocessing\LineRemoveDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preprocessing\LineRemoveDialog.designer.cs">
+      <DependentUpon>LineRemoveDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Preprocessing\PerspectiveDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preprocessing\PerspectiveDialog.designer.cs">
+      <DependentUpon>PerspectiveDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Preprocessing\ValueDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preprocessing\ValueDialog.designer.cs">
+      <DependentUpon>ValueDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ImageFileLoaderPagesDialog.resx">
+      <Link>ImageFileLoaderPagesDialog.resx</Link>
+      <DependentUpon>ImageFileLoaderPagesDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageFileLoaderPagesDialog.ja.resx">
+      <Link>ImageFileLoaderPagesDialog.ja.resx</Link>
+      <DependentUpon>ImageFileLoaderPagesDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BarcodeControls\AAMVADialogBox.resx">
+      <DependentUpon>AAMVADialogBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GotoPageDialog.resx">
+      <DependentUpon>GotoPageDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewDocumentDialog.resx">
+      <DependentUpon>NewDocumentDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PagesControl\PagesControl.resx">
+      <DependentUpon>PagesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preprocessing\LineRemoveDialog.resx">
+      <DependentUpon>LineRemoveDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preprocessing\LineRemoveDialog.ja.resx">
+      <DependentUpon>LineRemoveDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preprocessing\PerspectiveDialog.ja.resx">
+      <DependentUpon>PerspectiveDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preprocessing\PerspectiveDialog.resx">
+      <DependentUpon>PerspectiveDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preprocessing\ValueDialog.ja.resx">
+      <DependentUpon>ValueDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preprocessing\ValueDialog.resx">
+      <DependentUpon>ValueDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewerControl\ViewerControl.resx">
+      <DependentUpon>ViewerControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ViewerControl\ViewerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewerControl\ViewerControl.Designer.cs">
+      <DependentUpon>ViewerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewerControl\ViewerControlInteractiveMode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BarcodeMainDemo\DeleteRegion.png">
+    </None>
+    <None Include="Resources\BarcodeMainDemo\FitPage.png">
+    </None>
+    <None Include="Resources\BarcodeMainDemo\FitPageWidth.png">
+    </None>
+    <None Include="Resources\BarcodeMainDemo\InsertPage.png">
+    </None>
+    <None Include="Resources\BarcodeMainDemo\NewDocument.png">
+    </None>
+    <None Include="Resources\BarcodeMainDemo\NextPage.png">
+    </None>
+    <None Include="Resources\BarcodeMainDemo\OpenDocument.png">
+    </None>
+    <None Include="Resources\BarcodeMainDemo\PanMode.png">
+    </None>
+    <None Include="Resources\BarcodeMainDemo\PreviousPage.png">
+    </None>
+    <None Include="Resources\BarcodeMainDemo\RegionMode.png">
+    </None>
+    <None Include="Resources\BarcodeMainDemo\SaveDocument.png">
+    </None>
+    <None Include="Resources\BarcodeMainDemo\SelectMode.png">
+    </None>
+    <None Include="Resources\BarcodeMainDemo\ShowBarcodes.png">
+    </None>
+    <None Include="Resources\BarcodeMainDemo\ZoomIn.png">
+    </None>
+    <None Include="Resources\BarcodeMainDemo\ZoomOut.png">
+    </None>
+    <None Include="Resources\BarcodeMainDemo\ZoomSelection.png">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\BarcodeMainDemo\Symbologies.tif">
+      <Link>Resources\Symbologies.tif</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BarcodeControls\BarcodeControl.ja.resx">
+      <DependentUpon>BarcodeControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BarcodeControls\BarcodeControl.resx">
+      <DependentUpon>BarcodeControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BarcodeControls\ReadBarcodeExtraDialogBox.ja.resx">
+      <DependentUpon>ReadBarcodeExtraDialogBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BarcodeControls\ReadBarcodeExtraDialogBox.resx">
+      <DependentUpon>ReadBarcodeExtraDialogBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BarcodeControls\ReadBarcodeOptionsDialogBox.ja.resx">
+      <DependentUpon>ReadBarcodeOptionsDialogBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BarcodeControls\ReadBarcodeOptionsDialogBox.resx">
+      <DependentUpon>ReadBarcodeOptionsDialogBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BarcodeControls\ReadBarcodesDialogBox.ja.resx">
+      <DependentUpon>ReadBarcodesDialogBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BarcodeControls\ReadBarcodesDialogBox.resx">
+      <DependentUpon>ReadBarcodesDialogBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BarcodeControls\WriteBarcodeDialogBox.ja.resx">
+      <DependentUpon>WriteBarcodeDialogBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BarcodeControls\WriteBarcodeDialogBox.resx">
+      <DependentUpon>WriteBarcodeDialogBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GotoPageDialog.ja.resx">
+      <DependentUpon>GotoPageDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.ja.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewDocumentDialog.ja.resx">
+      <DependentUpon>NewDocumentDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PagesControl\PagesControl.ja.resx">
+      <DependentUpon>PagesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewerControl\ViewerControl.ja.resx">
+      <DependentUpon>ViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BarcodeMainDemo\ReadBarcodes.png">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BarcodeMainDemo\ReadAllBarcodes.png">
+    </None>
+    <None Include="Resources\BarcodeMainDemo\ReadBarcode.png">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BarcodeMainDemo\WriteBarcodeMode.png">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BarcodeMainDemo\ReadBarcodeOptions.png">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BarcodeMainDemo\WriteBarcode.png">
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Leadtools.Barcode.20.0.0.6\build\net40\Leadtools.Barcode.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Leadtools.Barcode.20.0.0.6\build\net40\Leadtools.Barcode.targets'))" />
+    <Error Condition="!Exists('packages\Leadtools.CommonDialogs.WinForms.20.0.0.6\build\net40\Leadtools.CommonDialogs.WinForms.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Leadtools.CommonDialogs.WinForms.20.0.0.6\build\net40\Leadtools.CommonDialogs.WinForms.targets'))" />
+    <Error Condition="!Exists('packages\Leadtools.Image.Processing.20.0.0.6\build\net40\Leadtools.Image.Processing.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Leadtools.Image.Processing.20.0.0.6\build\net40\Leadtools.Image.Processing.targets'))" />
+    <Error Condition="!Exists('packages\Leadtools.Kernel.20.0.0.6\build\net40\Leadtools.Kernel.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Leadtools.Kernel.20.0.0.6\build\net40\Leadtools.Kernel.targets'))" />
+    <Error Condition="!Exists('packages\Leadtools.Twain.20.0.0.6\build\net40\Leadtools.Twain.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Leadtools.Twain.20.0.0.6\build\net40\Leadtools.Twain.targets'))" />
+    <Error Condition="!Exists('packages\Leadtools.Viewer.Controls.WinForms.20.0.0.6\build\net40\Leadtools.Viewer.Controls.WinForms.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Leadtools.Viewer.Controls.WinForms.20.0.0.6\build\net40\Leadtools.Viewer.Controls.WinForms.targets'))" />
+    <Error Condition="!Exists('packages\Leadtools.Formats.Document.20.0.0.6\build\net40\Leadtools.Formats.Document.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Leadtools.Formats.Document.20.0.0.6\build\net40\Leadtools.Formats.Document.targets'))" />
+    <Error Condition="!Exists('packages\Leadtools.Formats.Raster.Additional.20.0.0.6\build\net40\Leadtools.Formats.Raster.Additional.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Leadtools.Formats.Raster.Additional.20.0.0.6\build\net40\Leadtools.Formats.Raster.Additional.targets'))" />
+    <Error Condition="!Exists('packages\Leadtools.Formats.Raster.Camera.20.0.0.6\build\net40\Leadtools.Formats.Raster.Camera.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Leadtools.Formats.Raster.Camera.20.0.0.6\build\net40\Leadtools.Formats.Raster.Camera.targets'))" />
+    <Error Condition="!Exists('packages\Leadtools.Formats.Raster.Common.20.0.0.6\build\net40\Leadtools.Formats.Raster.Common.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Leadtools.Formats.Raster.Common.20.0.0.6\build\net40\Leadtools.Formats.Raster.Common.targets'))" />
+    <Error Condition="!Exists('packages\Leadtools.Formats.Vector.20.0.0.6\build\net40\Leadtools.Formats.Vector.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Leadtools.Formats.Vector.20.0.0.6\build\net40\Leadtools.Formats.Vector.targets'))" />
+    <Error Condition="!Exists('packages\Leadtools.Jpeg2000.20.0.0.6\build\net40\Leadtools.Jpeg2000.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Leadtools.Jpeg2000.20.0.0.6\build\net40\Leadtools.Jpeg2000.targets'))" />
+    <Error Condition="!Exists('packages\Leadtools.Pdf.20.0.0.6\build\net40\Leadtools.Pdf.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Leadtools.Pdf.20.0.0.6\build\net40\Leadtools.Pdf.targets'))" />
+  </Target>
+  <Import Project="packages\Leadtools.Pdf.20.0.0.6\build\net40\Leadtools.Pdf.targets" Condition="Exists('packages\Leadtools.Pdf.20.0.0.6\build\net40\Leadtools.Pdf.targets')" />
+  <Import Project="packages\Leadtools.Jpeg2000.20.0.0.6\build\net40\Leadtools.Jpeg2000.targets" Condition="Exists('packages\Leadtools.Jpeg2000.20.0.0.6\build\net40\Leadtools.Jpeg2000.targets')" />
+  <Import Project="packages\Leadtools.Formats.Vector.20.0.0.6\build\net40\Leadtools.Formats.Vector.targets" Condition="Exists('packages\Leadtools.Formats.Vector.20.0.0.6\build\net40\Leadtools.Formats.Vector.targets')" />
+  <Import Project="packages\Leadtools.Formats.Raster.Common.20.0.0.6\build\net40\Leadtools.Formats.Raster.Common.targets" Condition="Exists('packages\Leadtools.Formats.Raster.Common.20.0.0.6\build\net40\Leadtools.Formats.Raster.Common.targets')" />
+  <Import Project="packages\Leadtools.Formats.Raster.Camera.20.0.0.6\build\net40\Leadtools.Formats.Raster.Camera.targets" Condition="Exists('packages\Leadtools.Formats.Raster.Camera.20.0.0.6\build\net40\Leadtools.Formats.Raster.Camera.targets')" />
+  <Import Project="packages\Leadtools.Formats.Raster.Additional.20.0.0.6\build\net40\Leadtools.Formats.Raster.Additional.targets" Condition="Exists('packages\Leadtools.Formats.Raster.Additional.20.0.0.6\build\net40\Leadtools.Formats.Raster.Additional.targets')" />
+  <Import Project="packages\Leadtools.Formats.Document.20.0.0.6\build\net40\Leadtools.Formats.Document.targets" Condition="Exists('packages\Leadtools.Formats.Document.20.0.0.6\build\net40\Leadtools.Formats.Document.targets')" />
+  <Import Project="packages\Leadtools.Viewer.Controls.WinForms.20.0.0.6\build\net40\Leadtools.Viewer.Controls.WinForms.targets" Condition="Exists('packages\Leadtools.Viewer.Controls.WinForms.20.0.0.6\build\net40\Leadtools.Viewer.Controls.WinForms.targets')" />
+  <Import Project="packages\Leadtools.Twain.20.0.0.6\build\net40\Leadtools.Twain.targets" Condition="Exists('packages\Leadtools.Twain.20.0.0.6\build\net40\Leadtools.Twain.targets')" />
+  <Import Project="packages\Leadtools.Kernel.20.0.0.6\build\net40\Leadtools.Kernel.targets" Condition="Exists('packages\Leadtools.Kernel.20.0.0.6\build\net40\Leadtools.Kernel.targets')" />
+  <Import Project="packages\Leadtools.Image.Processing.20.0.0.6\build\net40\Leadtools.Image.Processing.targets" Condition="Exists('packages\Leadtools.Image.Processing.20.0.0.6\build\net40\Leadtools.Image.Processing.targets')" />
+  <Import Project="packages\Leadtools.CommonDialogs.WinForms.20.0.0.6\build\net40\Leadtools.CommonDialogs.WinForms.targets" Condition="Exists('packages\Leadtools.CommonDialogs.WinForms.20.0.0.6\build\net40\Leadtools.CommonDialogs.WinForms.targets')" />
+  <Import Project="packages\Leadtools.Barcode.20.0.0.6\build\net40\Leadtools.Barcode.targets" Condition="Exists('packages\Leadtools.Barcode.20.0.0.6\build\net40\Leadtools.Barcode.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
