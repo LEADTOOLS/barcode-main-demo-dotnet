@@ -1,5 +1,5 @@
 ﻿// *************************************************************
-// Copyright (c) 1991-2019 LEAD Technologies, Inc.              
+// Copyright (c) 1991-2020 LEAD Technologies, Inc.              
 // All Rights Reserved.                                         
 // *************************************************************
 using System;
@@ -187,10 +187,11 @@ namespace Leadtools.Demos
 
             string[] pathToChecks =
             {
-                  @"..\..\LEADTOOLS Images",
-                  @"..\..\..\LEADTOOLS Images",
-                  @"..\..\..\..\LEADTOOLS Images",
-                  @"..\..\..\..\..\LEADTOOLS Images"
+                  @"..\..\Resources\Images",
+                  @"..\..\..\Resources\Images",
+                  @"..\..\..\..\Resources\Images",
+                  @"..\..\..\..\..\Resources\Images",
+                  @"..\..\..\..\..\..\Resources\Images"
             };
 
             string currentDirectory = Directory.GetCurrentDirectory();
@@ -200,16 +201,11 @@ namespace Leadtools.Demos
                if (Directory.Exists(imagesPath))
                   return imagesPath;
             }
-
-            // Check if %PUBLIC%\Documents\LEADTOOLS Images
-            imagesPath = Path.Combine(GetCommonDocumentsFolder(), @"LEADTOOLS Images");
-            if (Directory.Exists(imagesPath))
-               return imagesPath;
          }
          catch { }
 
          // Try registry next
-         imagesPath = @"Software\LEAD Technologies, Inc.\20\Images";
+         imagesPath = string.Format(@"Software\LEAD Technologies, Inc.\{0}\Images", LTVersion);
          RegistryKey rk = Registry.LocalMachine.OpenSubKey(imagesPath);         
          if (rk != null)
          {
@@ -217,6 +213,15 @@ namespace Leadtools.Demos
             rk.Close();
             return value;
          }
+
+         try
+         {
+            // Check if %PUBLIC%\Documents\LEADTOOLS Images
+            imagesPath = Path.Combine(GetCommonDocumentsFolder(), @"LEADTOOLS Images");
+            if (Directory.Exists(imagesPath))
+               return imagesPath;
+         }
+         catch { }
 
          // Finally, use the current EXE path
          return Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
@@ -265,6 +270,35 @@ namespace Leadtools.Demos
          {
             string location = string.Empty;
             string regKey = string.Empty;
+
+#if LTV21_CONFIG
+            const string englishInstallGuid = @"{352DD5BC-BEA1-43BC-B077-6395B597672A}";
+            const string japaneseInstallGuid = @"{1111511C-A89A-4907-A9D4-BB302F744CDC}";
+
+            // Try English setup first
+            if (Is64Process())
+               regKey = @"SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\" + englishInstallGuid;
+            else
+               regKey = @"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\" + englishInstallGuid;
+
+            location = ReadInstallLocationFromRegistry(regKey);
+
+            // If not English setup, try Japanese
+            if (string.IsNullOrEmpty(location))
+            {
+               if (Is64Process())
+                  regKey = @"SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\" + japaneseInstallGuid;
+               else
+                  regKey = @"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\" + japaneseInstallGuid;
+               location = ReadInstallLocationFromRegistry(regKey);
+            }
+
+            // If both Japanese and English setup missing, use startup path.
+            if (string.IsNullOrEmpty(location))
+            {
+               location = Application.StartupPath;
+            }
+#endif
 
 #if LTV20_CONFIG
             const string englishInstallGuid = @"{1111511B-A89A-4907-A9D4-BB302F744CDC}";
@@ -584,7 +618,7 @@ namespace Leadtools.Demos
 
          RasterCommentMetadata commentCopyright = new RasterCommentMetadata();
          commentCopyright.Type = RasterCommentMetadataType.Copyright;
-         commentCopyright.FromAscii("Copyright (c) 1991-2019 LEAD Technologies, Inc.  All Rights Reserved.");
+         commentCopyright.FromAscii("Copyright (c) 1991-2020 LEAD Technologies, Inc.  All Rights Reserved.");
 
          rasterImage.Comments.Add(commentSoftware);
          rasterImage.Comments.Add(commentCopyright);
@@ -650,11 +684,11 @@ namespace Leadtools.Demos
          ProcessStartInfo startInfo = new ProcessStartInfo();
          startInfo.FileName = @"hh.exe";
 
-#if LTV19_CONFIG || LTV20_CONFIG
+#if LEADTOOLS_V19_OR_LATER
          startInfo.Arguments = String.Format("\"mk:@MSITStore:{0}::/{1}\"", helpPath, topicName);
 #endif
 
-#if  LTV18_CONFIG
+#if LTV18_CONFIG
          startInfo.Arguments = String.Format("\"mk:@MSITStore:{0}::/Topics/{1}\"", helpPath, topicName);
 #endif
 
@@ -665,6 +699,13 @@ namespace Leadtools.Demos
          }
       }
 
+#if LTV21_CONFIG
+      public static int LTVersion = 21;
+#endif
+#if LTV20_CONFIG
+      public static int LTVersion = 20;
+#endif
+
       public static void LaunchHelp2(string topicName)
       {
          string helpPath = Path.Combine(InstallLocation, "Help");
@@ -673,16 +714,8 @@ namespace Leadtools.Demos
          startInfo.FileName = Path.Combine(helpPath, "LeadtoolsHelpUtilities.exe");
 
          startInfo.Arguments = String.Format("/viewalt:{0}", topicName);
-#if LTV20_CONFIG
-         int ver = 20;
-#endif
-#if LTV19_CONFIG
-         int ver = 19;
-#endif
-#if  LTV18_CONFIG
-         int ver = 18;
-#endif
-         startInfo.Arguments = String.Format("/viewalt:{0} {1} ", topicName, ver);
+
+         startInfo.Arguments = String.Format("/viewalt:{0} {1} ", topicName, LTVersion);
          using (Process process = new Process())
          {
             process.StartInfo = startInfo;

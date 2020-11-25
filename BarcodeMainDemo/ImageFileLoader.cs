@@ -1,5 +1,5 @@
 ﻿// *************************************************************
-// Copyright (c) 1991-2019 LEAD Technologies, Inc.              
+// Copyright (c) 1991-2020 LEAD Technologies, Inc.              
 // All Rights Reserved.                                         
 // *************************************************************
 using System;
@@ -483,6 +483,14 @@ namespace Leadtools.Demos
                                  {
                                     // Set the user options
                                     codecs.Options.Jpeg2000.Load.J2kResolution = new LeadSize(item.Options.MiscOptions.XResolution,
+                                                                                          item.Options.MiscOptions.YResolution);
+                                    break;
+                                 }
+
+                              case RasterImageFormat.TifJ2k:
+                                 {
+                                    // Set the user options
+                                    codecs.Options.Tiff.Load.J2kResolution = new LeadSize(item.Options.MiscOptions.XResolution,
                                                                                           item.Options.MiscOptions.YResolution);
                                     break;
                                  }

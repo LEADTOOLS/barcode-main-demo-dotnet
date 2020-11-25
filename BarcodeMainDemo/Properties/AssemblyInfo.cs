@@ -1,5 +1,5 @@
 ﻿// *************************************************************
-// Copyright (c) 1991-2019 LEAD Technologies, Inc.              
+// Copyright (c) 1991-2020 LEAD Technologies, Inc.              
 // All Rights Reserved.                                         
 // *************************************************************
 using System.Reflection;
@@ -14,7 +14,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("LEAD Technologies, Inc.")]
 [assembly: AssemblyProduct("BarcodeMainDemo")]
-[assembly: AssemblyCopyright("Copyright (c) 1991-2019 LEAD Technologies, Inc.")]
+[assembly: AssemblyCopyright("Copyright (c) 1991-2020 LEAD Technologies, Inc.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
